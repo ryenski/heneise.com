@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   </head>
   <body class="bg-white">
-    <div class="prose prose-lg mx-4 max-w-3xl md:mx-auto py-12 md:py-24 prose-a:underline prose-a:text-teal-500 hover:prose-a:text-teal-500 hover:prose-a:no-underline">
+    <div class="prose prose-lg mx-4 max-w-3xl md:mx-auto py-12 md:py-24">
       <header class="">
-        <h1 class="text-5xl font-extrabold my-1">{{ page.title }}</h1>
+        <h1 class="text-5xl my-1"><a href="/" class="no-underline font-extrabold">{{ page.title }}</a></h1>
         <h2 class="text-3xl font-extralight my-1">{{ page.description }}</h2>
         <p class="text-normal font-light my-1">{{page.contact}}</p>
       </header>
-      <div class=" my-16">
+      <div class="my-16 prose-a:underline prose-a:text-teal-500 hover:prose-a:text-teal-500 hover:prose-a:no-underline">
         {{ content }}
       </div>
 
