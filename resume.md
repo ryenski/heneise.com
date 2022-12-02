@@ -9,13 +9,16 @@ Entrepreneurial senior full-stack developer with over seventeen years experience
 
 ## Skills
 
-- Backend technologies including Ruby & Node.js, with a special preference for on Ruby on Rails.
-- Frontend JavaScript technologies (StimulusJS, React, Vue).
-- Project management principles, especially focused on [Shape Up](https://basecamp.com/shapeup).
-- OOP, REST, and MVC principles.
-- Graphic design.
-- Test-driven development.
-- Bitcoin and blockchain technologies.
+- Self-motivated and able to work independently or as a part of a team.
+- Strategic thinking and product design.
+- Extensive experience with backend technologies including Ruby & Node.js, with a special preference for Ruby on Rails.
+- Experience with frontend tools including CSS & JavaScript frameworks.
+- Mastery of Git source control.
+- Knowledge of project management methodologies, especially focused on [Shape Up](https://basecamp.com/shapeup).
+- Understanding of CS fundamentals, including OOP, REST, MVC, and test-driven development.
+- Strong graphic design capability.
+- Experience with data stores including SQL, Redis, and Elasticsearch.
+
 
 ## Co-Founder and Director of Product at MemberDrive, LLC, 2021—Present
 MemberDrive is an innovative crowdfunding platform that helps organizations turn donors into engaged members. 
@@ -25,7 +28,7 @@ MemberDrive is an innovative crowdfunding platform that helps organizations turn
 
 ## Senior Full Stack Engineer at Swan Bitcoin, 2022
 
-As senior engineer I participated in a variety of projects within various areas of the company to develop systems and workflows for Swan’s flagship product. 
+As senior engineer, I participated in a variety of projects within various areas of the company to develop systems and workflows for Swan’s flagship product.
 - Organized working groups to expand product offerings for Swan’s clients. 
 - Fortified security by implementing an account-based permission policy.
 - Participated in an application-wide domain model overhaul to allow a user to login to multiple accounts. 
@@ -42,7 +45,7 @@ Worked directly with the Chief Executive Officer to design and engineer the star
 
 ## Founder and Project Manager at Booster Stage, Inc., 2004—Present
 
-Launched and grew a web development agency, providing outstanding value to clients in need of rapidly- deployed custom web-based software solutions. Developed multiple greenfield MVP web-based applications for startup clients.
+Launched and grew a web development agency, providing outstanding value to clients in need of rapidly-deployed custom web-based software solutions. Developed multiple greenfield MVP web-based applications for startup clients.
 - Engineered web applications using Ruby on Rails, StimulusJS, and TailwindCSS.
 - Met regularly with clients and stakeholders to discover and document application requirements, categorize and prioritize features, and to develop and execute implementation strategies.
 - Built book of business and developed marketing and sales funnels.
