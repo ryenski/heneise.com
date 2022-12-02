@@ -28,8 +28,6 @@ I fall into the category of "Ruby on Rails Developer". Ever since learning about
 
 A few years ago I started my own web development agency, called [Booster Stage](https://boosterstage.com). Since I was the boss of applesauce, I was able to implement a variation of the [Shape Up](https://basecamp.com/shapeup) project methodology for clients with great success. Clients love Shape Up because it helps to reduce risk by shipping big things fast. Developers love Shape Up because it helps to focus deliverables and provides generous but well-defined timeframes.
 
-If you’re the boring type you can also [look at my resume](./resume). 
-
 ## Projects
 
 - **MemberDrive.org**\
