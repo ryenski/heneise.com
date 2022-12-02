@@ -38,13 +38,13 @@ A few years ago I started my own web development agency, called [Booster Stage](
   Booster Stage is my consulting business. We use Shape Up to help entrepreneurs build and launch web applications on time, on target, and on budget.\
   [boosterstage.com](https://boosterstage.com)
 
-- Ragtime Ranch Family Farm\
+- **Ragtime Ranch Family Farm**\
   [ragtimeranch.substack.com](https://ragtimeranch.substack.com)
   
 ## Recent Work History
 
 - <strong class="text-red-500">Currently:</strong> **Senior Full Stack Engineer** at **Swan Bitcoin**\
-  Building swanbitcoin.com\
+  Building swanbitcoin.com.\
   [swanbitcoin.com](https://swanbitcoin.com)
 
 - **Lead Developer** at **Dime Giving**\
