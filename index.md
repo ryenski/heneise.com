@@ -13,13 +13,13 @@ A few of the companies that I've had the pleasure of working with:
 
 <div class="grid grid-cols-2 lg:grid-cols-3 gap-4 mt-12 mb-20">
 
-  <div class="flex items-center justify-center"><a href="https://swanbitcoin.com/"><img alt="Swan" class="m-0 h-12" src="/assets/swan.png" /></a></div>
-  <div class="flex items-center justify-center"><a href="https://boosterstage.com/portfolio/dime-giving/"><img alt="Dime Giving" class="m-0 h-12" src="/assets/dime-giving.png" /></a></div>
-  <div class="flex items-center justify-center"><a href="https://memberdrive.org/"><img alt="Memberdrive" class="m-0 h-8" src="/assets/memberdrive.png" /></a></div>
-  <div class="flex items-center justify-center"><a href="https://boosterstage.com/portfolio/caregrove/"><img alt="Caregrove" class="m-0 h-10" src="/assets/caregrove.png" /></a></div>
-  <div class="flex items-center justify-center"><a href="https://boosterstage.com/"><img alt="Booster Stage" class="m-0 h-8" src="/assets/boosterstage.png" /></a></div>
-  <div class="flex items-center justify-center"><a href="https://boosterstage.com/portfolio/donortools/"><img alt="DonorTools" class="m-0 h-8" src="/assets/donortools.png" /></a></div>
-  <!-- <div class="flex items-center justify-center"><a href="https://biola.edu/"><img alt="Biola University" class="m-0 h-20" src="/assets/biola.png" /></a></div> -->
+  <div class="flex items-center justify-center"><a href="https://swanbitcoin.com/"><img alt="Swan" class="m-0 h-12" src="./assets/swan.png" /></a></div>
+  <div class="flex items-center justify-center"><a href="https://boosterstage.com/portfolio/dime-giving/"><img alt="Dime Giving" class="m-0 h-12" src="./assets/dime-giving.png" /></a></div>
+  <div class="flex items-center justify-center"><a href="https://memberdrive.org/"><img alt="Memberdrive" class="m-0 h-8" src="./assets/memberdrive.png" /></a></div>
+  <div class="flex items-center justify-center"><a href="https://boosterstage.com/portfolio/caregrove/"><img alt="Caregrove" class="m-0 h-10" src="./assets/caregrove.png" /></a></div>
+  <div class="flex items-center justify-center"><a href="https://boosterstage.com/"><img alt="Booster Stage" class="m-0 h-8" src="./assets/boosterstage.png" /></a></div>
+  <div class="flex items-center justify-center"><a href="https://boosterstage.com/portfolio/donortools/"><img alt="DonorTools" class="m-0 h-8" src="./assets/donortools.png" /></a></div>
+  <!-- <div class="flex items-center justify-center"><a href="https://biola.edu/"><img alt="Biola University" class="m-0 h-20" src="./assets/biola.png" /></a></div> -->
 
 </div>
 
@@ -28,7 +28,7 @@ I fall into the category of "Ruby on Rails Developer". Ever since learning about
 
 A few years ago I started my own web development agency, called [Booster Stage](https://boosterstage.com). Since I was the boss of applesauce, I was able to implement a variation of the [Shape Up](https://basecamp.com/shapeup) project methodology for clients with great success. Clients love Shape Up because it helps to reduce risk by shipping big things fast. Developers love Shape Up because it helps to focus deliverables and provides generous but well-defined timeframes.
 
-If you’re the boring type you can also [look at my resume](/resume). 
+If you’re the boring type you can also [look at my resume](./resume). 
 
 ## Projects
 
@@ -57,4 +57,4 @@ If you’re the boring type you can also [look at my resume](/resume).
   Launched and grew a web development agency, providing outstanding value to clients in need of rapidly-deployed custom web-based software solutions.\
   [boosterstage.com](https://boosterstage.com)
    
-For more work history, check out my [Resume](/resume), and connect with me on [LinkedIn](https://www.linkedin.com/in/heneise)
+For more work history, check out my [Resume](./resume), and connect with me on [LinkedIn](https://www.linkedin.com/in/heneise)
