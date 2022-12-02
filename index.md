@@ -18,7 +18,7 @@ A few of the companies that I've had the pleasure of working with:
   <div class="flex items-center justify-center"><a href="https://memberdrive.org/"><img alt="Memberdrive" class="m-0 h-8" src="./assets/memberdrive.png" /></a></div>
   <div class="flex items-center justify-center"><a href="https://boosterstage.com/portfolio/caregrove/"><img alt="Caregrove" class="m-0 h-10" src="./assets/caregrove.png" /></a></div>
   <div class="flex items-center justify-center"><a href="https://boosterstage.com/"><img alt="Booster Stage" class="m-0 h-8" src="./assets/boosterstage.png" /></a></div>
-  <div class="flex items-center justify-center"><a href="https://boosterstage.com/portfolio/donortools/"><img alt="DonorTools" class="m-0 h-8" src="./assets/donortools.png" /></a></div>
+  <div class="flex items-center justify-center"><a href="https://boosterstage.com/portfolio/donor-tools/"><img alt="DonorTools" class="m-0 h-8" src="./assets/donortools.png" /></a></div>
   <!-- <div class="flex items-center justify-center"><a href="https://biola.edu/"><img alt="Biola University" class="m-0 h-20" src="./assets/biola.png" /></a></div> -->
 
 </div>
