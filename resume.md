@@ -5,7 +5,7 @@ description: Product Generalist
 contact: Get in touch at <a class="link" href="mailto:ryan@boosterstage.com">ryan@boosterstage.com</a>
 ---
 
-Entrepreneurial senior full-stack developer with over seventeen years experience in all aspects of the product delivery cycle. Superior expertise with sofware development methodologies, providing exceptional product design and effective engineering leadership in startup and established product environments.
+Entrepreneurial senior full-stack developer with over seventeen years experience in all aspects of the product delivery cycle. Superior expertise with software development methodologies, providing exceptional product design and effective engineering leadership in startup and established product environments.
 
 ## Skills
 
