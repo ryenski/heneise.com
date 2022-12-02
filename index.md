@@ -39,7 +39,7 @@ A few years ago I started my own web development agency, called [Booster Stage](
   [boosterstage.com](https://boosterstage.com)
 
 - Ragtime Ranch Family Farm\
-  https://ragtimeranch.substack.com
+  [ragtimeranch.substack.com](https://ragtimeranch.substack.com)
   
 ## Recent Work History
 
