@@ -7,7 +7,7 @@ contact: Get in touch at <a class="link" href="mailto:ryan@boosterstage.com">rya
 
 ## 👋Hi, my name is Ryan Heneise.
 
-I'm an entrepreneurial senior full-stack software engineer. I love making things, especially on the web. With over seventeen years experience, I've been involved in all aspects of the product delivery cycle. 
+I'm an entrepreneurial senior full-stack software engineer and Shape Up project manager. I love making things, especially on the web. With over seventeen years experience, I've been involved in all aspects of the product delivery cycle. 
 
 A few of the companies that I've had the pleasure of working with: 
 
