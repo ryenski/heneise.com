@@ -31,7 +31,7 @@ A few years ago I started my own web development agency, called [Booster Stage](
 ## Projects
 
 - **MemberDrive.org**\
-  MemberDrive is an innovative crowdfunding platform that helps organizations turn donors into engaged members.\
+  MemberDrive is an innovative crowdfunding platform that helps organizations turn donors into engaged members. Members ❤️ MemberDrive.\
 	[memberdrive.org](https://memberdrive.org)
 
 - **Booster Stage**\
@@ -54,5 +54,11 @@ A few years ago I started my own web development agency, called [Booster Stage](
 - **Founder and Project Manager** at **Booster Stage**\
   Launched and grew a web development agency, providing outstanding value to clients in need of rapidly-deployed custom web-based software solutions.\
   [boosterstage.com](https://boosterstage.com)
-   
+
 For more work history, check out my [Resume](./resume), and connect with me on [LinkedIn](https://www.linkedin.com/in/heneise)
+
+## TMI...
+
+Read about our [missionary journey to Haiti](http://heneisefamily.substack.com).
+
+See what I'm up to [Now](/now).
