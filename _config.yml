@@ -2,8 +2,9 @@ url: "https://heneise.com" # the base hostname & protocol for your site, e.g. ht
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Ryan Heneise" # the name of your site, e.g. ACME Corp.
 
-plugins: 
+plugins:
   - jekyll-postcss
+  - jekyll-inline-svg
 
 postcss:
   cache: false

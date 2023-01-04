@@ -13,13 +13,19 @@ A few of the companies that I've had the pleasure of working with:
 
 <div class="grid grid-cols-2 lg:grid-cols-3 gap-4 mt-12 mb-20">
 
-  <div class="flex items-center justify-center"><a href="https://swanbitcoin.com/"><img alt="Swan" class="m-0 h-12" src="./assets/swan.png" /></a></div>
-  <div class="flex items-center justify-center"><a href="https://boosterstage.com/portfolio/dime-giving/"><img alt="Dime Giving" class="m-0 h-12" src="./assets/dime-giving.png" /></a></div>
-  <div class="flex items-center justify-center"><a href="https://memberdrive.org/"><img alt="Memberdrive" class="m-0 h-8" src="./assets/memberdrive.png" /></a></div>
-  <div class="flex items-center justify-center"><a href="https://boosterstage.com/portfolio/caregrove/"><img alt="Caregrove" class="m-0 h-10" src="./assets/caregrove.png" /></a></div>
-  <div class="flex items-center justify-center"><a href="https://boosterstage.com/"><img alt="Booster Stage" class="m-0 h-8" src="./assets/boosterstage.png" /></a></div>
-  <div class="flex items-center justify-center"><a href="https://boosterstage.com/portfolio/donor-tools/"><img alt="DonorTools" class="m-0 h-8" src="./assets/donortools.png" /></a></div>
-  <!-- <div class="flex items-center justify-center"><a href="https://biola.edu/"><img alt="Biola University" class="m-0 h-20" src="./assets/biola.png" /></a></div> -->
+  <div class="flex items-center justify-center"><a href="https://boosterstage.com/">
+    {% svg ./assets/images/boosterstage.svg class="h-12 fill-current text-gray-800 dark:text-gray-100" %}
+  </a></div>
+  <div class="flex items-center justify-center"><a href="https://memberdrive.org/">
+    {% svg ./assets/images/memberdrive.svg class="h-8 fill-current text-gray-800 dark:text-gray-100" %}
+  </a></div>
+  <div class="flex items-center justify-center"><a href="https://boosterstage.com/portfolio/dime-giving/">
+    {% svg ./assets/images/dime.svg class="h-12 fill-current text-gray-800 dark:text-gray-100" %}
+  </a></div>
+  <div class="flex items-center justify-center"><a href="https://swanbitcoin.com/" class='dark:bg-gray-100 rounded p-2'><img alt="Swan" class="m-0 h-10" src="./assets/images/swan.png" /></a></div>
+  <div class="flex items-center justify-center"><a href="https://boosterstage.com/portfolio/caregrove/" class="dark:bg-gray-100 rounded p-2"><img alt="Caregrove" class="m-0 h-10" src="./assets/images/caregrove.png" /></a></div>
+  <div class="flex items-center justify-center"><a href="https://boosterstage.com/portfolio/donor-tools/" class="dark:bg-gray-100 rounded p-2"><img alt="DonorTools" class="m-0 h-8" src="./assets/images/donortools.png" /></a></div>
+  <!-- <div class="flex items-center justify-center"><a href="https://biola.edu/"><img alt="Biola University" class="m-0 h-20" src="./assets/images/biola.png" /></a></div> -->
 
 </div>
 
