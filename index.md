@@ -7,24 +7,24 @@ contact: Get in touch at <a class="link" href="mailto:ryan@boosterstage.com">rya
 
 ## 👋Hi, my name is Ryan Heneise.
 
-I'm an entrepreneurial senior full-stack software engineer and Shape Up project manager. I love making things, especially on the web. With over seventeen years experience, I've been involved in all aspects of the product delivery cycle. 
+I'm an entrepreneur and senior full-stack software engineer and Shape Up project manager. I love making things, especially on the web. With over seventeen years experience, I've been involved in all aspects of the product delivery cycle. 
 
 A few of the companies that I've had the pleasure of working with: 
 
-<div class="grid grid-cols-2 lg:grid-cols-3 gap-4 mt-12 mb-20">
+<div class="grid grid-cols-2 lg:grid-cols-3 gap-4 mt-12 mb-20 bg:white shadow-2xl dark:shadow-none dark:bg-gray-100 rounded-xl px-2 py-6">
 
   <div class="flex items-center justify-center"><a href="https://boosterstage.com/">
-    {% svg ./assets/images/boosterstage.svg class="h-12 fill-current text-gray-800 dark:text-gray-100" %}
+    {% svg ./assets/images/boosterstage.svg class="h-12 fill-current text-gray-700" %}
   </a></div>
   <div class="flex items-center justify-center"><a href="https://memberdrive.org/">
-    {% svg ./assets/images/memberdrive.svg class="h-8 fill-current text-gray-800 dark:text-gray-100" %}
+    {% svg ./assets/images/memberdrive.svg class="h-8 fill-current text-gray-700" %}
   </a></div>
   <div class="flex items-center justify-center"><a href="https://boosterstage.com/portfolio/dime-giving/">
-    {% svg ./assets/images/dime.svg class="h-12 fill-current text-gray-800 dark:text-gray-100" %}
+    {% svg ./assets/images/dime.svg class="h-12 fill-current text-gray-700" %}
   </a></div>
-  <div class="flex items-center justify-center"><a href="https://swanbitcoin.com/" class='dark:bg-gray-100 rounded p-2'><img alt="Swan" class="m-0 h-10" src="./assets/images/swan.png" /></a></div>
-  <div class="flex items-center justify-center"><a href="https://boosterstage.com/portfolio/caregrove/" class="dark:bg-gray-100 rounded p-2"><img alt="Caregrove" class="m-0 h-10" src="./assets/images/caregrove.png" /></a></div>
-  <div class="flex items-center justify-center"><a href="https://boosterstage.com/portfolio/donor-tools/" class="dark:bg-gray-100 rounded p-2"><img alt="DonorTools" class="m-0 h-8" src="./assets/images/donortools.png" /></a></div>
+  <div class="flex items-center justify-center"><a href="https://swanbitcoin.com/" class=''><img alt="Swan" class="m-0 h-10" src="./assets/images/swan.png" /></a></div>
+  <div class="flex items-center justify-center"><a href="https://boosterstage.com/portfolio/caregrove/" class=""><img alt="Caregrove" class="m-0 h-10" src="./assets/images/caregrove.png" /></a></div>
+  <div class="flex items-center justify-center"><a href="https://boosterstage.com/portfolio/donor-tools/" class=""><img alt="DonorTools" class="m-0 h-8" src="./assets/images/donortools.png" /></a></div>
   <!-- <div class="flex items-center justify-center"><a href="https://biola.edu/"><img alt="Biola University" class="m-0 h-20" src="./assets/images/biola.png" /></a></div> -->
 
 </div>
