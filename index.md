@@ -34,22 +34,22 @@ I fall into the category of "Ruby on Rails Developer". Ever since learning about
 
 A few years ago I started my own web development agency, called [Booster Stage](https://boosterstage.com). Since I was the boss of applesauce, I was able to implement a variation of the [Shape Up](https://basecamp.com/shapeup) project methodology for clients with great success. Clients love Shape Up because it helps to reduce risk by shipping big things fast. Developers love Shape Up because it helps to focus deliverables and provides generous but well-defined timeframes.
 
-## Projects
+## Current Projects
 
-- **MemberDrive.org**\
-  MemberDrive is an innovative crowdfunding platform that helps organizations turn donors into engaged members. Members ❤️ MemberDrive.\
-	[memberdrive.org](https://memberdrive.org)
+- **MemberDrive** &hellip; [memberdrive.org](https://memberdrive.org)\
+  MemberDrive is an innovative crowdfunding platform that helps organizations turn donors into engaged members. Members ❤️ MemberDrive.
+- **Booster Stage** &hellip; [boosterstage.com](https://boosterstage.com)\
+  Booster Stage is my consulting business. We use Shape Up to help entrepreneurs build and launch web applications on time, on target, and on budget.
+- **Saint Joseph the Worker Capital Campaign** &hellip; [traditionandbeauty.com](https://traditionandbeauty.com)\
+  Serving as chair of the Stewardship committee.
+- **Ragtime Ranch Family Farm** &hellip; [ragtimeranch.substack.com](https://ragtimeranch.substack.com)
 
-- **Booster Stage**\
-  Booster Stage is my consulting business. We use Shape Up to help entrepreneurs build and launch web applications on time, on target, and on budget.\
-  [boosterstage.com](https://boosterstage.com)
-
-- **Ragtime Ranch Family Farm**\
-  [ragtimeranch.substack.com](https://ragtimeranch.substack.com)
-  
 ## Recent Work History
 
-- <strong class="text-red-500">Currently:</strong> **Senior Full Stack Engineer** at **Swan Bitcoin**\
+- <strong class="text-red-500">Currently:</strong> **Senior Product Developer** at **SRS Acquiom**\
+  [srsacquiom.com](https://srsacquiom.com)
+
+- **Senior Full Stack Engineer** at **Swan Bitcoin**\
   Building swanbitcoin.com.\
   [swanbitcoin.com](https://swanbitcoin.com)
 
@@ -57,14 +57,8 @@ A few years ago I started my own web development agency, called [Booster Stage](
 	Designed and built DimeGiving.com, an online donation platform backed by double-entry accounting backend. \
 	[dimegiving.com](https://dimegiving.com)
 
-- **Founder and Project Manager** at **Booster Stage**\
+- **Founder and Product Manager** at **Booster Stage**\
   Launched and grew a web development agency, providing outstanding value to clients in need of rapidly-deployed custom web-based software solutions.\
   [boosterstage.com](https://boosterstage.com)
 
 For more work history, check out my [Resume](./resume), and connect with me on [LinkedIn](https://www.linkedin.com/in/heneise)
-
-## TMI...
-
-Read about our [missionary journey to Haiti](http://heneisefamily.substack.com).
-
-See what I'm up to [Now](/now).

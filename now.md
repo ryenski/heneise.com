@@ -8,14 +8,15 @@ This is a [Now](http://nownownow.com/about) page. Thanks to Derek Sivers (and al
 
 ### Business
 
-* Currently working as a software engineer for [Swan Bitcoin](http://swanbitcoin.com). 
-* [MemberDrive.org](https://MemberDrive.org) is still a side project but becoming more than that since I took on a business partner to help spin up the marketing flywheel. MemberDrive is a fundraising platform that helps charities build recurring revenue through memberships. Members ❤️ MemberDrive. 
+* Currently working as a senior software enginer for [SRS Acquiom](http://srsacquiom.com)
+* [MemberDrive.org](https://MemberDrive.org) is my side hustle but becoming more than that since I took on a business partner to help spin up the marketing flywheel. MemberDrive is a fundraising platform that helps charities build recurring revenue through memberships. Members ❤️ MemberDrive. 
 * I’m freelancing through my agency [Booster Stage](https://boosterstage.net). I help nonprofit organizations create online payment systems. 
 * I sold my previous business, Donor Tools, to my partners in 2015.
+* Just finished a short tenure as a software engineer for [Swan Bitcoin](http://swanbitcoin.com).
 
 ### Family
 
-*   Last year we went to Haiti for a three-month missionary experience. Check out our blog [heneisefamily.substack.com](https://heneisefamily.substack.com).
+*   In 2021 we went to Haiti for a three-month missionary experience. Check out our blog [heneisefamily.substack.com](https://heneisefamily.substack.com).
 *   Bethany is homeschooling our kids.
 
 ### Hobbies
