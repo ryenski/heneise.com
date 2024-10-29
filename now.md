@@ -3,7 +3,6 @@ layout: default
 title: Now
 ---
 
-
 This is a [Now](http://nownownow.com/about) page. Thanks to Derek Sivers (and all the other people who have published Now Pages) for the inspiration for this page. This page was last updated in December 2022.
 
 ### Business

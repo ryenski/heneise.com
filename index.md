@@ -7,7 +7,7 @@ contact: Get in touch at <a class="link" href="mailto:ryan@boosterstage.com">rya
 
 ## 👋Hi, my name is Ryan Heneise.
 
-I'm an entrepreneur and senior full-stack software engineer and Shape Up project manager. I love making things, especially on the web. With over seventeen years experience, I've been involved in all aspects of the product delivery cycle. 
+I'm an entrepreneur and senior full-stack software engineer and Shape Up project manager. I love making things, especially on the web. With over twenty years experience developing web applications, I've been involved in all aspects of the product delivery cycle. 
 
 A few of the companies that I've had the pleasure of working with: 
 
@@ -46,7 +46,7 @@ A few years ago I started my own web development agency, called [Booster Stage](
 
 ## Recent Work History
 
-- <strong class="text-red-500">Currently:</strong> **Senior Product Developer** at **SRS Acquiom**\
+- <strong class="text-red-500">Currently:</strong> **Senior Software Engineer** at **SRS Acquiom**\
   [srsacquiom.com](https://srsacquiom.com)
 
 - **Senior Full Stack Engineer** at **Swan Bitcoin**\
