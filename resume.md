@@ -19,8 +19,13 @@ I am an entrepreneurial senior full-stack developer with twenty years experience
 - Strong graphic design capability.
 - Experience with data stores including SQL, Redis, and Elasticsearch.
 
+### Principal Software Engineer at Gierd, Inc.
+January 2025—Present
+
+Gierd, Inc. is an enterprise marketplace commerce platform that unifies sales, pricing, payouts, and supply data from multiple marketplaces into audit-ready financial records, providing profitability visibility for large brands. As Principal Engineer I have been responsible for several large feature roll-outs, as well as being responsible for the overall architecture and design of the platform.
+
 ### Senior Software Engineer at SRS Acquiom
-January 2023—Present
+January 2023—December 2024
 
 SRS Acquiom provides a suite of software platforms to support the logistical needs of companies performing mergers and acquisitions. As Senior Software Engineer I worked chiefly on the Ruby on Rails backend for the Virtual Data Room (VDR) platform. As a very large legacy codebase, the VDR presented many interesting challenges. I implemented several new features, assisted with bug fixes and changes to existing features, refactored existing code, performed code reviews, and participated in the Scrum process.
 
