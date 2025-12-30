@@ -2,7 +2,7 @@
 layout: default
 title: "Ryan Heneise"
 description: Principal Full-Stack Software Engineer
-contact: Get in touch at <a class="link" href="mailto:ryan@boosterstage.com">ryan@boosterstage.com</a>
+contact: Get in touch at <a class="link" href="mailto:ryan@heneise.com">ryan@heneise.com</a>
 ---
 
 I am an entrepreneurial principal full-stack software engineer with twenty years experience in all aspects of the web application delivery cycle. With expertise in the best software development methodologies including Shape Up, I provide exceptional product design, quality code writing, and effective engineering leadership in both startup and established product environments.

@@ -2,7 +2,7 @@
 layout: default
 title: "Ryan Heneise"
 description: Principal Full-Stack Software Engineer
-contact: Get in touch at <a class="link" href="mailto:ryan@boosterstage.com">ryan@boosterstage.com</a>
+contact: Get in touch at <a class="link" href="mailto:ryan@heneise.com">ryan@heneise.com</a>
 ---
 
 ## 👋Hi, my name is Ryan Heneise.
