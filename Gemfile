@@ -19,3 +19,5 @@ end
 gem "jekyll-inline-svg", "~> 1.1"
 
 gem "kramdown-parser-gfm", "~> 1.1"
+
+gem "jekyll-compose", "~> 0.12.0"

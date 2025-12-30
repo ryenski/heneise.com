@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ site.title }} - {{ page.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  </head>
+
+  <body class="bg-white text-slate-800 dark:bg-slate-800">
+    <div class="mx-4 max-w-3xl md:mx-auto py-12 md:py-24">
+      {% include navigation.html %}
+
+      <!-- Post Content -->
+      <article class="prose prose-lg dark:prose-invert">
+        <header class="mb-8">
+          <h1 class="text-4xl md:text-5xl my-1 font-light">{{ page.title }}</h1>
+          {% if page.date %}
+            <p class="text-sm text-slate-500 dark:text-slate-400 font-light my-1">
+              {{ page.date | date: '%B %d, %Y' }}
+            </p>
+          {% endif %}
+        </header>
+        <div
+          class="prose-a:underline prose-a:text-teal-500 hover:prose-a:text-teal-500 hover:prose-a:no-underline font-light"
+        >
+          {{ content }}
+        </div>
+      </article>
+    </div>
+  </body>
+</html>

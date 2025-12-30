@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ site.title }} - {{ page.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  </head>
+
+  <body class="bg-white text-slate-800 dark:bg-slate-800">
+    <div class="mx-4 max-w-3xl md:mx-auto py-12 md:py-24">
+      {% include navigation.html %}
+
+      <!-- Posts Index Content -->
+      <div class="prose prose-lg dark:prose-invert">
+        <header class="mb-8">
+          <h1 class="text-4xl md:text-5xl my-1 font-light">{{ page.title }}</h1>
+          {% if page.description %}
+            <p class="text-xl font-extralight my-1 text-slate-600 dark:text-slate-400">
+              {{ page.description }}
+            </p>
+          {% endif %}
+        </header>
+
+        <div
+          class="my-16 prose-a:underline prose-a:text-teal-500 hover:prose-a:text-teal-500 hover:prose-a:no-underline font-light"
+        >
+          {{ content }}
+
+          <!-- Posts List -->
+          <ul class="list-none pl-0 space-y-6">
+            {% for post in site.posts %}
+              <li class="border-b border-slate-200 dark:border-slate-700 pb-4 last:border-b-0">
+                <h2 class="text-2xl font-light my-2">
+                  <a
+                    href="{{ post.url }}"
+                    class="no-underline text-slate-800 dark:text-slate-200 hover:text-teal-500 dark:hover:text-teal-400"
+                  >
+                    {{ post.title }}
+                  </a>
+                </h2>
+                {% if post.date %}
+                  <p class="text-sm text-slate-500 dark:text-slate-400 font-light my-1">
+                    {{ post.date | date: '%B %d, %Y' }}
+                  </p>
+                {% endif %}
+                {% if post.excerpt %}
+                  <p class="text-slate-600 dark:text-slate-400 my-2 font-light">
+                    {{ post.excerpt | strip_html | truncatewords: 30 }}
+                  </p>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

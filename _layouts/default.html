@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -6,18 +6,25 @@
     <title>{{ site.title }} - {{ page.description }}</title>
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   </head>
+
   <body class="bg-white text-slate-800 dark:bg-slate-800">
+    <div class="mx-4 max-w-3xl md:mx-auto py-12 md:py-24">
+      {% include navigation.html %}
 
-    <div class="prose prose-lg mx-4 max-w-3xl md:mx-auto py-12 md:py-24 dark:prose-invert">
-      <header class="">
-        <h1 class="text-5xl my-1"><a href="/" class="no-underline font-light">{{ page.title }}</a></h1>
-        <h2 class="text-3xl font-extralight my-1">{{ page.description }}</h2>
-        <p class="text-normal font-light my-1">{{page.contact}}</p>
-      </header>
-      <div class="my-16 prose-a:underline prose-a:text-teal-500 hover:prose-a:text-teal-500 hover:prose-a:no-underline font-light">
-        {{ content }}
+      <div class="prose prose-lg dark:prose-invert">
+        <header class="">
+          <h1 class="text-5xl my-1">
+            <a href="/" class="no-underline font-light">{{ page.title }}</a>
+          </h1>
+          <h2 class="text-3xl font-extralight my-1">{{ page.description }}</h2>
+          <p class="text-normal font-light my-1">{{ page.contact }}</p>
+        </header>
+        <div
+          class="my-16 prose-a:underline prose-a:text-teal-500 hover:prose-a:text-teal-500 hover:prose-a:no-underline font-light"
+        >
+          {{ content }}
+        </div>
       </div>
-
     </div>
   </body>
 </html>
