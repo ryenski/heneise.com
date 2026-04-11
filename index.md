@@ -11,7 +11,7 @@ I'm an entrepreneur and principal full-stack software engineer and Shape Up proj
 
 A few of the companies that I've had the pleasure of working with: 
 
-<div class="grid grid-cols-2 lg:grid-cols-3 gap-4 mt-12 mb-20 bg:white shadow-2xl dark:shadow-none dark:bg-gray-100 rounded-xl px-2 py-6">
+<div class="grid grid-cols-2 lg:grid-cols-3 gap-4 mt-12 mb-20 bg-flexoki-paper shadow-2xl dark:shadow-none rounded-xl px-2 py-6">
 
   <div class="flex items-center justify-center"><a href="https://boosterstage.com/">
     {% svg ./assets/images/boosterstage.svg class="h-12 fill-current text-gray-700" %}
