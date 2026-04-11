@@ -86,10 +86,8 @@ heneise.com/
 ├── _config.yml          # Jekyll configuration
 ├── _layouts/            # HTML layouts
 │   └── default.html
-├── _sass/               # Sass stylesheets
-│   └── custom.scss
 ├── assets/              # Static assets
-│   ├── css/            # Compiled CSS
+│   ├── css/            # Tailwind entry (main.css) + site theme (site-custom.css)
 │   └── images/         # Image files
 ├── index.md            # Homepage
 ├── resume.md           # Resume page

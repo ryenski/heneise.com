@@ -1,0 +1,274 @@
+/* Site surfaces — plain CSS (Tailwind v4 PostCSS strips html.dark / :root:not(.light)).
+   Prose --tw-prose-* tokens MUST live in @layer utilities: @tailwindcss/typography sets
+   defaults in utilities, which beat @layer components regardless of specificity. */
+
+@layer components {
+
+  /* Page shell — light default */
+  .site {
+    min-height: 100vh;
+    font-family: var(--font-sans);
+    background-color: var(--color-flexoki-light-bg);
+    color: var(--color-flexoki-light-tx);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color-scheme: light;
+  }
+
+  /* System dark — not when user forced light */
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) .site {
+      background-color: var(--color-flexoki-dark-bg);
+      color: var(--color-flexoki-dark-tx);
+      color-scheme: dark;
+    }
+
+    :root:not([data-theme="light"]) .site nav {
+      border-bottom-color: var(--color-flexoki-dark-ui);
+    }
+
+    :root:not([data-theme="light"]) .site nav a {
+      color: var(--color-flexoki-dark-tx-2);
+    }
+
+    :root:not([data-theme="light"]) .site nav a:hover {
+      color: var(--color-flexoki-dark-bl);
+    }
+
+    :root:not([data-theme="light"]) .site .post-meta,
+    :root:not([data-theme="light"]) .site .page-subtitle,
+    :root:not([data-theme="light"]) .site .post-excerpt {
+      color: var(--color-flexoki-dark-tx-2);
+    }
+
+    :root:not([data-theme="light"]) .site .post-list > li {
+      border-bottom-color: var(--color-flexoki-dark-ui);
+    }
+
+    :root:not([data-theme="light"]) .site .post-list h2 a:hover {
+      color: var(--color-flexoki-dark-bl);
+    }
+
+    :root:not([data-theme="light"]) .site .theme-toggle {
+      color: var(--color-flexoki-dark-tx-2);
+    }
+
+    :root:not([data-theme="light"]) .site .theme-toggle:hover {
+      color: var(--color-flexoki-dark-bl);
+    }
+
+    :root:not([data-theme="light"]) .site .theme-toggle:focus-visible {
+      outline-color: var(--color-flexoki-dark-bl);
+    }
+  }
+
+  /* Explicit dark (e.g. light OS + user choice) */
+  :root[data-theme="dark"] .site {
+    background-color: var(--color-flexoki-dark-bg);
+    color: var(--color-flexoki-dark-tx);
+    color-scheme: dark;
+  }
+
+  :root[data-theme="dark"] .site nav {
+    border-bottom-color: var(--color-flexoki-dark-ui);
+  }
+
+  :root[data-theme="dark"] .site nav a {
+    color: var(--color-flexoki-dark-tx-2);
+  }
+
+  :root[data-theme="dark"] .site nav a:hover {
+    color: var(--color-flexoki-dark-bl);
+  }
+
+  :root[data-theme="dark"] .site .post-meta,
+  :root[data-theme="dark"] .site .page-subtitle,
+  :root[data-theme="dark"] .site .post-excerpt {
+    color: var(--color-flexoki-dark-tx-2);
+  }
+
+  :root[data-theme="dark"] .site .post-list > li {
+    border-bottom-color: var(--color-flexoki-dark-ui);
+  }
+
+  :root[data-theme="dark"] .site .post-list h2 a:hover {
+    color: var(--color-flexoki-dark-bl);
+  }
+
+  :root[data-theme="dark"] .site .theme-toggle {
+    color: var(--color-flexoki-dark-tx-2);
+  }
+
+  :root[data-theme="dark"] .site .theme-toggle:hover {
+    color: var(--color-flexoki-dark-bl);
+  }
+
+  :root[data-theme="dark"] .site .theme-toggle:focus-visible {
+    outline-color: var(--color-flexoki-dark-bl);
+  }
+
+  .site nav {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--color-flexoki-light-ui);
+  }
+
+  .site nav a {
+    color: var(--color-flexoki-light-tx-2);
+    text-decoration: none;
+  }
+
+  .site nav a:hover {
+    color: var(--color-flexoki-light-bl);
+  }
+
+  .site .theme-toggle {
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.25rem;
+    margin: -0.25rem;
+    border: none;
+    border-radius: 0.375rem;
+    background: transparent;
+    color: var(--color-flexoki-light-tx-2);
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .site .theme-toggle:hover {
+    color: var(--color-flexoki-light-bl);
+  }
+
+  .site .theme-toggle:focus-visible {
+    outline: 2px solid var(--color-flexoki-light-bl);
+    outline-offset: 2px;
+  }
+
+  .site .theme-toggle svg {
+    width: 1.125rem;
+    height: 1.125rem;
+    display: block;
+  }
+
+  .site .post-meta,
+  .site .page-subtitle,
+  .site .post-excerpt {
+    color: var(--color-flexoki-light-tx-2);
+  }
+
+  .site .post-list > li {
+    border-bottom: 1px solid var(--color-flexoki-light-ui);
+  }
+
+  .site .post-list > li:last-child {
+    border-bottom: none;
+  }
+
+  .site .post-list h2 a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .site .post-list h2 a:hover {
+    color: var(--color-flexoki-light-bl);
+  }
+}
+
+@layer utilities {
+  /* Override typography plugin’s oklch prose tokens (same layer, later in bundle via import order). */
+  .prose {
+    --tw-prose-body: var(--color-flexoki-base-700);
+    --tw-prose-headings: var(--color-flexoki-black);
+    --tw-prose-lead: var(--color-flexoki-base-600);
+    --tw-prose-links: var(--color-flexoki-blue-600);
+    --tw-prose-bold: var(--color-flexoki-black);
+    --tw-prose-counters: var(--color-flexoki-base-500);
+    --tw-prose-bullets: var(--color-flexoki-base-400);
+    --tw-prose-hr: var(--color-flexoki-base-200);
+    --tw-prose-quotes: var(--color-flexoki-base-700);
+    --tw-prose-quote-borders: var(--color-flexoki-base-300);
+    --tw-prose-captions: var(--color-flexoki-base-600);
+    --tw-prose-code: var(--color-flexoki-black);
+    --tw-prose-pre-code: var(--color-flexoki-base-200);
+    --tw-prose-pre-bg: var(--color-flexoki-base-950);
+    --tw-prose-th-borders: var(--color-flexoki-base-300);
+    --tw-prose-td-borders: var(--color-flexoki-base-200);
+  }
+
+  .prose a {
+    color: var(--tw-prose-links);
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+  }
+
+  .prose a:hover {
+    color: var(--color-flexoki-light-bl-2);
+  }
+
+  .prose :where(h1, h2, h3) a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .prose :where(h1, h2, h3) a:hover {
+    color: var(--color-flexoki-light-bl);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) .prose {
+      --tw-prose-body: var(--color-flexoki-base-200);
+      --tw-prose-headings: var(--color-flexoki-base-50);
+      --tw-prose-lead: var(--color-flexoki-base-400);
+      --tw-prose-links: var(--color-flexoki-blue-400);
+      --tw-prose-bold: var(--color-flexoki-base-100);
+      --tw-prose-counters: var(--color-flexoki-base-500);
+      --tw-prose-bullets: var(--color-flexoki-base-600);
+      --tw-prose-hr: var(--color-flexoki-base-800);
+      --tw-prose-quotes: var(--color-flexoki-base-300);
+      --tw-prose-quote-borders: var(--color-flexoki-base-700);
+      --tw-prose-captions: var(--color-flexoki-base-500);
+      --tw-prose-code: var(--color-flexoki-base-200);
+      --tw-prose-pre-code: var(--color-flexoki-base-200);
+      --tw-prose-pre-bg: var(--color-flexoki-base-950);
+      --tw-prose-th-borders: var(--color-flexoki-base-700);
+      --tw-prose-td-borders: var(--color-flexoki-base-800);
+    }
+
+    :root:not([data-theme="light"]) .prose a:hover {
+      color: var(--color-flexoki-dark-bl-2);
+    }
+
+    :root:not([data-theme="light"]) .prose :where(h1, h2, h3) a:hover {
+      color: var(--color-flexoki-dark-bl);
+    }
+  }
+
+  :root[data-theme="dark"] .prose {
+    --tw-prose-body: var(--color-flexoki-base-200);
+    --tw-prose-headings: var(--color-flexoki-base-50);
+    --tw-prose-lead: var(--color-flexoki-base-400);
+    --tw-prose-links: var(--color-flexoki-blue-400);
+    --tw-prose-bold: var(--color-flexoki-base-100);
+    --tw-prose-counters: var(--color-flexoki-base-500);
+    --tw-prose-bullets: var(--color-flexoki-base-600);
+    --tw-prose-hr: var(--color-flexoki-base-800);
+    --tw-prose-quotes: var(--color-flexoki-base-300);
+    --tw-prose-quote-borders: var(--color-flexoki-base-700);
+    --tw-prose-captions: var(--color-flexoki-base-500);
+    --tw-prose-code: var(--color-flexoki-base-200);
+    --tw-prose-pre-code: var(--color-flexoki-base-200);
+    --tw-prose-pre-bg: var(--color-flexoki-base-950);
+    --tw-prose-th-borders: var(--color-flexoki-base-700);
+    --tw-prose-td-borders: var(--color-flexoki-base-800);
+  }
+
+  :root[data-theme="dark"] .prose a:hover {
+    color: var(--color-flexoki-dark-bl-2);
+  }
+
+  :root[data-theme="dark"] .prose :where(h1, h2, h3) a:hover {
+    color: var(--color-flexoki-dark-bl);
+  }
+}

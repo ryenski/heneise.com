@@ -1,0 +1,10 @@
+<script>
+(function () {
+  try {
+    var t = localStorage.getItem("theme");
+    var root = document.documentElement;
+    if (t === "light") root.setAttribute("data-theme", "light");
+    else if (t === "dark") root.setAttribute("data-theme", "dark");
+  } catch (e) {}
+})();
+</script>

@@ -3,6 +3,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
+    {% include theme-init.html %}
     <title>{{ site.title }} - {{ page.title }}</title>
 
     {% assign page_url = page.url | prepend: site.url | prepend: site.baseurl %}
@@ -72,5 +73,6 @@
         </div>
       </article>
     </div>
+    {% include scripts.html %}
   </body>
 </html>
