@@ -3,6 +3,7 @@
 
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
+@import "./flexoki.css";
 
 @theme {
   --font-sans: "Public Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
