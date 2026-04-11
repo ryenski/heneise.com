@@ -2,7 +2,7 @@
 layout: default
 title: "Ryan Heneise"
 description: Principal Full-Stack Architect Engineer
-contact: Lindale, Texas, USA • 512-705-8752 • ryan@heneise.com • [LinkedIn](https://www.linkedin.com/in/heneise)
+contact: Lindale, Texas, USA • 903-376-7648 • ryan@heneise.com
 
 ---
 

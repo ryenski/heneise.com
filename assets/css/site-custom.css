@@ -121,4 +121,8 @@
 
   .prose :where(h1, h2, h3) a { color: inherit; text-decoration: none; }
   .prose :where(h1, h2, h3) a:hover { color: var(--c-accent); }
+
+  .prose hr {
+    border-color: var(--c-ui);
+  }
 }
