@@ -1,10 +1,11 @@
 ---
 ---
 
-@import "tailwindcss/base";
-@import "tailwindcss/components";
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
-@import "_sass/custom.scss";
+@theme {
+  --font-sans: "Public Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
 
-@import "tailwindcss/utilities";
-
+@import "../../_sass/custom.scss" layer(components);
