@@ -3,7 +3,7 @@
     "@shopify/prettier-plugin-liquid": "^1.10.0",
     "@tailwindcss/postcss": "^4.2.2",
     "@tailwindcss/typography": "^0.5.19",
-    "cssnano": "^5.1.14",
+    "cssnano": "^7.1.4",
     "postcss": "^8.5.9",
     "prettier": "^3.7.4",
     "tailwindcss": "^4.2.2"
