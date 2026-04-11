@@ -5,6 +5,9 @@
     <meta charset="utf-8">
     {% include theme-init.html %}
     <title>{{ site.title }} - {{ page.title }}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
 
     {% assign page_url = page.url | prepend: site.url | prepend: site.baseurl %}
     {% assign page_description = page.excerpt
@@ -44,14 +47,6 @@
         content="{{ page.image | prepend: site.url | prepend: site.baseurl }}"
       >
     {% endif %}
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    >
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   </head>
 
   <body class="site">

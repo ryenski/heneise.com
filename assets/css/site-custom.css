@@ -58,6 +58,7 @@
   }
 
   .site nav a:hover { color: var(--c-accent); }
+  .site nav a[aria-current="page"] { color: var(--c-tx); }
 
   .site .post-meta,
   .site .page-subtitle,
