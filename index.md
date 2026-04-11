@@ -1,11 +1,11 @@
 ---
 layout: default
 title: "Ryan Heneise"
-description: Principal Full-Stack Software Engineer
+description: Principal Full-Stack Architect Engineer
 contact: Get in touch at <a class="link" href="mailto:ryan@heneise.com">ryan@heneise.com</a>
 ---
 
-## 👋Hi, my name is Ryan Heneise.
+## 👋 Hi, my name is Ryan Heneise.
 
 I'm an entrepreneur and principal full-stack software engineer and Shape Up project manager. I love making things, especially on the web. With over twenty years experience developing web applications, I've been involved in all aspects of the product delivery cycle. 
 

@@ -40,6 +40,12 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
+  .site h1, .site h2, .site h3,
+  .site h4, .site h5, .site h6 {
+    font-family: var(--font-serif);
+    font-weight: 400;
+  }
+
   .site nav {
     margin-bottom: 2rem;
     padding-bottom: 1rem;
@@ -95,6 +101,13 @@
     --tw-prose-headings: var(--c-tx);
     --tw-prose-bold:     var(--c-tx);
     --tw-prose-links:    var(--c-accent);
+    --tw-prose-lead:     var(--c-tx-2);
+  }
+
+  .prose h1, .prose h2, .prose h3,
+  .prose h4, .prose h5, .prose h6 {
+    font-family: var(--font-serif);
+    font-weight: 400;
   }
 
   .prose a {
