@@ -70,7 +70,7 @@ One of the most effective tools for validating your customers’ willingness to 
 
 There are many ways to structure a pre-sales deal, but the one I’ve seen most commonly used is this: Once you’ve determined that your idea will be a good fit for your customer, and they’ve expressed interest in it, you offer them a special, discounted price for the solution that you’re pitching. For example, a full year of service at a steep discount. Hold on to that money: the point of getting paid at this time is not to pay your developer; it’s to validate that someone is willing to pay for your idea.
 
-The moment you've received revenue for your product (even if it's just an idea), [you've created a customer]({% link _posts/2017-06-19-the-purpose-of-business-is-to-create-and-keep-a-customer.html.markdown %}). You're in business!
+The moment you've received revenue for your product (even if it's just an idea), [you've created a customer]({% link _posts/2017-06-19-the-purpose-of-business-is-to-create-and-keep-a-customer.md %}). You're in business!
 
 I can’t overstate the importance of money when it comes to validation. Very few people will give you constructive negative feedback about your product idea. (Thank those people profusely!) Most people will congratulate you and tell you what a good idea it is. File that away as a confidence booster, but don’t bank on it. Find a few people willing to pay you actual real money for your product and you’ll be building your launchpad on much more solid ground.
 
