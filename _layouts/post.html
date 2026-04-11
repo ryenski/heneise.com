@@ -46,7 +46,10 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    >
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   </head>
 
@@ -55,7 +58,7 @@
       {% include navigation.html %}
 
       <!-- Post Content -->
-      <article class="prose prose-lg dark:prose-invert">
+      <article class="prose prose-lg dark:prose-invert prose-a:hover:underline">
         <header class="mb-8">
           <h1 class="text-4xl md:text-5xl my-1 font-light">{{ page.title }}</h1>
           {% if page.date %}

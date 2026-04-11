@@ -16,8 +16,8 @@ group :jekyll_plugins do
   # gem "jekyll-feed"
   # gem "jekyll-seo-tag"
 end
-gem "jekyll-inline-svg", "~> 1.1"
+gem "jekyll-inline-svg"#, "~> 1.1"
 
-gem "kramdown-parser-gfm", "~> 1.1"
+gem "kramdown-parser-gfm"#, "~> 1.1"
 
-gem "jekyll-compose", "~> 0.12.0"
+gem "jekyll-compose"#, "~> 0.12.0"
