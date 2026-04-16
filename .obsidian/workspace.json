@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "now.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "now"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "now.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks for now"
             }
           },
           {
@@ -185,14 +185,16 @@
   },
   "active": "33c7ad17bd7771e2",
   "lastOpenFiles": [
-    "_site/README.md",
+    "index.md",
     "resume.md",
+    "README.md",
+    "navbar.md",
+    "_site/navbar.md",
+    "_site/README.md",
     "Untitled.md",
     "_site/Untitled.md",
     "node_modules/commander/Readme.md",
-    "index.md",
     "node_modules/tapable/README.md",
-    "README.md",
     "CLAUDE.md",
     "_site/assets/images/biola-h.png",
     "assets/images/biola-h.png",

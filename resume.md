@@ -8,7 +8,7 @@ contact: Lindale, Texas, USA • 903-376-7648 • ryan@heneise.com
 
 # Summary
 
-I build products that work for real humans. Over 20 years, I've shipped donation platforms processing millions in charitable giving, scaled fintech products handling Bitcoin transactions, and led teams through the entire product lifecycle - from zero to production to profitability. My edge: I'm equally comfortable writing code, designing products, and talking strategy with executives. Best suited for senior engineering roles where you need someone who codes well *and* thinks like a product owner.
+I build products that work for real humans. Over 20 years, I've shipped donation platforms processing millions in charitable giving, scaled fintech products handling Bitcoin transactions, and led teams through the entire product lifecycle - from zero to production to profitability. I'm equally comfortable writing code, designing products, and talking strategy with executives. Best suited for senior engineering roles where you need someone who codes well *and* thinks like a product owner.
 
 ## Core Competencies
 
