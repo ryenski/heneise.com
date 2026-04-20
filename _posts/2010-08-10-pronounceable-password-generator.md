@@ -2,12 +2,13 @@
 layout: post
 title: Pronounceable Password Generator
 date: 2010-08-10 00:00 +0000
+published: false
 ---
 Here’s a neat little snippet of Ruby code for generating pronounceable passwords.
 
-[http://github.com/mysmallidea/Pronounceable-Password-Generator/](http://github.com/mysmallidea/Pronounceable-Password-Generator/)
+[http://github.com/ryenski/Pronounceable-Password-Generator/](http://github.com/ryenski/Pronounceable-Password-Generator/)
 
-Just call `PasswordGenerator.generate_password!` and you’ll get a nice password like “drawcansir-60-lungi”
+Just call `PasswordGenerator.generate_password!` and you’ll get a nice password like “fantastic-60-lunch”
 
 Of course, you should remind people to change their generated password, but this is useful for resetting passwords and simplifying a signup process.
 

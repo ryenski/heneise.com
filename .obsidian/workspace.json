@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "now.md",
+                "file": "_posts/2010-08-10-pronounceable-password-generator.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "now"
+              "title": "2010-08-10-pronounceable-password-generator"
             }
           }
         ]
@@ -185,6 +185,30 @@
   },
   "active": "33c7ad17bd7771e2",
   "lastOpenFiles": [
+    "_posts/2023-05-01-pronounceable-password-generator.md",
+    "_posts/2010-08-10-pronounceable-password-generator.md",
+    "_posts/2023-05-11-spending-bitcoin.md",
+    "_posts/2017-06-27-refactoring-code-smells-with-service-objects.md",
+    "_site/2017/06/27/refactoring-code-smells-with-service-objects.html",
+    "_site/2017/06/27",
+    "_posts/2023-04-30-static-site-generators.md",
+    "_site/2023/04/30/static-site-generators.html",
+    "_site/2023/04/30",
+    "_site/2023/04",
+    "_posts/2023-05-03-timechainstats-com.md",
+    "_site/links/2023/05/03/timechainstats-com.html",
+    "_posts/2025-12-30-back-at-it.md",
+    "_posts/2023-05-01-value-for-value.md",
+    "_posts/2023-05-03-1ml-com.md",
+    "_posts/2023-05-03-clark-moody-s-dashboard.md",
+    "_site/links/2023/05/11/spending-bitcoin.html",
+    "_site/links/2023/05/11",
+    "_site/links/2023/05/03/1ml-com.html",
+    "_posts/2023-05-03-explorer-acinq-com.md",
+    "_site/links/2023/05/03/explorer-acinq-com.html",
+    "_posts/2026-04-20-agentic-worktree-management.md",
+    "posts.md",
+    "now.md",
     "index.md",
     "resume.md",
     "README.md",

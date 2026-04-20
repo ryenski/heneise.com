@@ -1,9 +1,10 @@
 ---
 layout: post
-title: 'Static Site Generators'
+title: Static Site Generators
 date: 2023-04-30 08:23 -0500
-tags: 
+tags:
   - webdev
+published: false
 ---
 
 Picking a site generator is hard. Do you really want to use Wordpress? We already know the answer to that question.
