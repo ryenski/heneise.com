@@ -2,7 +2,7 @@
 layout: post
 title: Pronounceable Password Generator
 date: 2010-08-10 00:00 +0000
-published: false
+published: true
 ---
 Here’s a neat little snippet of Ruby code for generating pronounceable passwords.
 

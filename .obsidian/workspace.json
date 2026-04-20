@@ -186,6 +186,7 @@
   "active": "33c7ad17bd7771e2",
   "lastOpenFiles": [
     "_posts/2023-05-01-pronounceable-password-generator.md",
+    "resume.md",
     "_posts/2010-08-10-pronounceable-password-generator.md",
     "_posts/2023-05-11-spending-bitcoin.md",
     "_posts/2017-06-27-refactoring-code-smells-with-service-objects.md",
@@ -210,7 +211,6 @@
     "posts.md",
     "now.md",
     "index.md",
-    "resume.md",
     "README.md",
     "navbar.md",
     "_site/navbar.md",
