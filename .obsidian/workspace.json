@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2010-08-10-pronounceable-password-generator.md",
+                "file": "resume.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2010-08-10-pronounceable-password-generator"
+              "title": "resume"
             }
           }
         ]
@@ -185,9 +185,11 @@
   },
   "active": "33c7ad17bd7771e2",
   "lastOpenFiles": [
+    "_site/resume.html",
+    "_site/Résumé.html",
+    "_posts/2010-08-10-pronounceable-password-generator.md",
     "_posts/2023-05-01-pronounceable-password-generator.md",
     "resume.md",
-    "_posts/2010-08-10-pronounceable-password-generator.md",
     "_posts/2023-05-11-spending-bitcoin.md",
     "_posts/2017-06-27-refactoring-code-smells-with-service-objects.md",
     "_site/2017/06/27/refactoring-code-smells-with-service-objects.html",
@@ -206,7 +208,6 @@
     "_site/links/2023/05/11",
     "_site/links/2023/05/03/1ml-com.html",
     "_posts/2023-05-03-explorer-acinq-com.md",
-    "_site/links/2023/05/03/explorer-acinq-com.html",
     "_posts/2026-04-20-agentic-worktree-management.md",
     "posts.md",
     "now.md",
@@ -229,7 +230,6 @@
     "_site/assets/images/biola.jpg",
     "assets/images/biola.jpg",
     "_site/assets/images/memberdrive-old.svg",
-    "assets/images/memberdrive.svg",
-    "_site/CLAUDE.md"
+    "assets/images/memberdrive.svg"
   ]
 }

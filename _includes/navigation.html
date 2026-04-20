@@ -1,7 +1,7 @@
 <nav class="flex flex-wrap items-center justify-between gap-4 gap-y-3">
   <ul class="flex flex-wrap gap-4 md:gap-6 text-sm md:text-base font-light">
     <li><a href="/" {% if page.url == "/" %}aria-current="page"{% endif %}>Home</a></li>
-    <li><a href="/resume" {% if page.url contains "/resume" %}aria-current="page"{% endif %}>Resume</a></li>
+    <li><a href="/resume" {% if page.url contains "/resume" %}aria-current="page"{% endif %}>Résumé</a></li>
     <li><a href="/now" {% if page.url contains "/now" %}aria-current="page"{% endif %}>Now</a></li>
     <li><a href="/posts" {% if page.url contains "/posts" or page.layout == "post" %}aria-current="page"{% endif %}>Posts</a></li>
   </ul>

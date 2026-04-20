@@ -39,6 +39,8 @@ A few years ago I started my own web development agency, called [Booster Stage](
 
 - **MemberDrive** &hellip; [memberdrive.org](https://memberdrive.org)\
   MemberDrive is an innovative crowdfunding platform that helps organizations turn donors into engaged members. Members ❤️ MemberDrive.
+- **Chesterton Academy of Tyler** &hellip; [chestertontyler.org](https://chestertontyler.org)
+  Chesterton Academy is a classical high school in the Catholic tradition. I serve on the Board of Directors as Treasurer.
 - **Saint Joseph the Worker Capital Campaign** &hellip; [traditionandbeauty.com](https://traditionandbeauty.com)\
   Serving as a member of the fundraising committee.
 - **Ragtime Ranch Family Farm** &hellip; [ragtimeranch.substack.com](https://ragtimeranch.substack.com)
@@ -67,4 +69,4 @@ A few years ago I started my own web development agency, called [Booster Stage](
   Designed and built DonorTools.com, one of the first modern web-based donor management and online donations systems for nonprofit organizations. \
   [donortools.com](https://donortools.com)
 
-For more work history, check out my [Resume](./resume), and connect with me on [LinkedIn](https://www.linkedin.com/in/heneise)
+For more work history, check out my [Resume](resume.md), and connect with me on [LinkedIn](https://www.linkedin.com/in/heneise)
