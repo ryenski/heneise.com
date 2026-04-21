@@ -62,6 +62,15 @@
               {{ page.date | date: '%B %d, %Y' }}
             </p>
           {% endif %}
+          {% if page.image %}
+            <div class="relative left-1/2 right-1/2 -mx-[50vw] w-screen my-8">
+              <img
+                src="{{ page.image | relative_url }}"
+                alt="{{ page.title | escape }}"
+                class="w-full h-auto"
+              >
+            </div>
+          {% endif %}
         </header>
         <div class="font-light">
           {{ content }}

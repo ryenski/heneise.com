@@ -7,9 +7,6 @@ excerpt: "What exactly is an MVP? The answer is: it depends. It depends on the s
 layout: post
 image: /assets/images/2017-09-05-how-to-create-an-mvp/hero.jpg
 ---
-
-![hero](/assets/images/2017-09-05-how-to-create-an-mvp/hero.jpg)
-
 What exactly is an MVP? The answer is: it depends. It depends on the stage of your business, and where you are with your product. If you're just starting out, an MVP might be little more than a pitch deck. If you've got early adopter customers, then your MVP might be a working prototype.
 
 The point is that an MVP (Minimum Viable Product) is designed to answer a very specific question at each stage of your product development. What is that question? We'll get to that.

@@ -7,9 +7,6 @@ tags: Funding, Growth
 layout: post
 image: /assets/images/2017-10-23-how-to-use-your-mvp-to-raise-seed-funding/hero.jpg
 ---
-
-![hero](/assets/images/2017-10-23-how-to-use-your-mvp-to-raise-seed-funding/hero.jpg)
-
 I really liked [this question that came through Quora](https://www.quora.com/My-company-has-a-MVP-traction-and-revenue-We-are-seeking-40k-in-funding-Where-do-I-begin-looking/answer/Ryan-Crispin-Heneise-1?srid=utkuT) recently: 
 
 > My company has a MVP, traction, and revenue. We are seeking $40k in funding. Where do I begin looking?

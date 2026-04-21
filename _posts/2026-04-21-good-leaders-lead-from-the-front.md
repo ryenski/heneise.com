@@ -11,8 +11,6 @@ But leaders need to hear it. Especially startup founders.
 
 Your startup isn't going anywhere without strong, visible leadership. In the early days, your team is small enough that everyone sees what you do. They're watching how you handle crises, how you treat people, and whether you're willing to get your hands dirty. Leadership isn't a title you claim—it's a behavior you demonstrate. 
 
-![hero](/assets/images/2026-04-21-good-leaders-lead-from-the-front/jehyun-sung-6U5AEmQIajg-unsplash.jpg)
-
 ## Vision
 
 Your company exists for a reason. Everybody should know what it is. 

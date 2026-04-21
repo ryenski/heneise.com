@@ -8,9 +8,6 @@ excerpt: If you’re not a developer, this can seem like a great big stop sign. 
 layout: post
 image: /assets/images/2018-07-17-how-to-find-a-technical-cofounder/hero.jpg
 ---
-
-![hero](/assets/images/2018-07-17-how-to-find-a-technical-cofounder/hero.jpg)
-
 As a technical founder myself, my perspective is a little different, but here’s a question I hear all the time: I want to start a SaaS business, but I’m not a developer. Where can I find a technical co-founder? 
 
 Finding and hiring the right people is one of the most challenging parts of any business, technical or not. Even more so at the beginning, when most entrepreneurs have the fewest resources. 

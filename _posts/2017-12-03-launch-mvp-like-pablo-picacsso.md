@@ -8,9 +8,6 @@ tags: Launch, MVP, Minimum Viable Product, Project Management, Product Design, C
 layout: post
 image: /assets/images/2017-12-03-launch-mvp-like-pablo-picacsso/hero.jpg
 ---
-
-![hero](/assets/images/2017-12-03-launch-mvp-like-pablo-picacsso/hero.jpg)
-
 I remember the first time I saw Pablo Picasso's “Bull” lithograph series.
 
 I was staying in Santiago, Chile, and there was a public exhibition of the

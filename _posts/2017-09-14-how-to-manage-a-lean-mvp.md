@@ -10,9 +10,6 @@ image: /assets/images/2017-09-14-how-to-manage-a-lean-mvp/hero.jpg
 excerpt: How to Successfully Manage an MVP Project Using Agile Principles
 
 ---
-
-![hero](/assets/images/2017-09-14-how-to-manage-a-lean-mvp/hero.jpg)
-
 In ancient days, software development was modeled after manufacturing. Projects were organized around a giant, monolithic specification document, called a Spec. 
 
 ![Picture the Monolith scene from 2001: A Space Odyssey](/assets/images/2017-09-14-how-to-manage-a-lean-mvp/monolith.gif)

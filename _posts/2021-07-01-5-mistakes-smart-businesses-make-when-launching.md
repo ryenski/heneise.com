@@ -9,7 +9,7 @@ layout: post
 image: /assets/images/2021-07-01-5-mistakes-smart-businesses-make-when-launching/hero.jpg
 ---
 
-![hero](/assets/images/2021-07-01-5-mistakes-smart-businesses-make-when-launching/hero.jpg)
+
 
 # Waiting for the product to be “finished” before marketing it.
 

@@ -8,9 +8,6 @@ subtitle: We make it work by caring more about quality of work than about quanti
 layout: post
 image: /assets/images/2018-01-24-why-we-stopped-tracking-time/hero.jpg
 ---
-
-![hero](/assets/images/2018-01-24-why-we-stopped-tracking-time/hero.jpg)
-
 Time tracking is one of the hallmark features of design and development agencies. “What’s your hourly rate” is a question we get all the time. 
 
 The answer may sound a little glib: we don’t have an hourly rate. Don’t get me wrong, we do have benchmark rates that we use to estimate project profitability, etc. But we don’t track projects or pay our people based on an hourly rate. 

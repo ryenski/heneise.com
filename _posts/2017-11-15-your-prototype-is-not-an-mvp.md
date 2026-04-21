@@ -8,9 +8,6 @@ tags: Minimum Viable Product, MVP, Critical Path
 layout: post
 image: /assets/images/2017-11-15-your-prototype-is-not-an-mvp/hero.jpg
 ---
-
-![hero](/assets/images/2017-11-15-your-prototype-is-not-an-mvp/hero.jpg)
-
 Two brothers stood together in the field in Kitty Hawk, South Carolina, waiting for the conditions to be just right. For hundreds of years, brilliant inventors had been dreaming of this moment. Yet the promise of powered flight had so far remained just a dream. On this day, Orville and Wilbur Wright would test their latest design: an airplane (though they didn't call it that) that could carry a pilot and was powered by an engine. 
 
 And it flew! For twelve glorious seconds, the Wright Flyer took flight over the ground. It was the first time a human had lifted their feed from the ground in a powered heavier-than-air aircraft. 

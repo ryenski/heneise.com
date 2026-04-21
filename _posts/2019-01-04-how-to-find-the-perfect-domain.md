@@ -7,10 +7,7 @@ excerpt: Are all the good domains taken? How can you come up with a good brand a
 layout: post
 image: /assets/images/2019-01-04-how-to-find-the-perfect-domain/hero.jpg
 ---
-
-![hero](/assets/images/2019-01-04-how-to-find-the-perfect-domain/hero.jpg)
-
-# It's 2022, and all the good domains are taken
+# It's 2026, and all the good domains are taken
 
 Sure, you didn't expect your first choice to be available, but there must at least be _something_ suitable that isn't being held hostage by domain squatters.
 
