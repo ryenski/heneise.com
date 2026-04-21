@@ -23,7 +23,7 @@ Repeat the vision often. Put it in writing. Reference it when making hard decisi
 
 Transparency is a key component of leadership. Concealing grim realities from your team erodes trust. 
 
-Your team can handle bad news. What they can't handle is being blindsided by it. If runway is tight, say so. If a major customer is at risk, give people the context they need to understand why priorities might shift. Secrecy creates anxiety; openness invites collaboration.
+Your team can handle bad news. What they can't handle is being blindsided by it. If runway is tight, say so. If a major customer is at risk, give people the context they need to understand why priorities might shift. Secrecy creates anxiety; openness invites collaboration; shared challenges provoke participation.
 
 This extends to decision-making too. When you make a call, explain your reasoning. Show your work. Your team doesn't need to agree with every decision, but they deserve to understand the logic behind it. And yes, stakeholders includes your team. The ones writing specs or pitches, building product designs, and writing code.
 
