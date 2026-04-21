@@ -19,7 +19,7 @@ A few of the companies that I've had the pleasure of working with:
     {% svg ./assets/images/boosterstage.svg class="h-12 fill-current text-gray-700" %}
   </a></div>
   <div class="flex items-center justify-center"><a href="https://memberdrive.org/">
-    {% svg ./assets/images/memberdrive.svg class="h-8 fill-current text-gray-700" %}
+    {% svg ./assets/images/memberdrive.svg class="h-12" %}
   </a></div>
   <div class="flex items-center justify-center"><a href="https://boosterstage.com/portfolio/dime-giving/">
     {% svg ./assets/images/dime.svg class="h-12 fill-current text-gray-700" %}
