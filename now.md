@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Now
+description: Now page
 ---
 
 This is a [Now](http://nownownow.com/about) page. Thanks to Derek Sivers (and all the other people who have published Now Pages) for the inspiration for this page. This page was last updated in April 2026.

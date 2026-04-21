@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resume.md",
+                "file": "_posts/2026-04-21-good-leaders-lead-from-the-front.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "resume"
+              "title": "2026-04-21-good-leaders-lead-from-the-front"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "now.md",
+                "file": "_posts/2026-04-21-good-leaders-lead-from-the-front.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for now"
+              "title": "Backlinks for 2026-04-21-good-leaders-lead-from-the-front"
             }
           },
           {
@@ -169,8 +169,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,13 +182,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "33c7ad17bd7771e2",
+  "active": "85a7d2115f72b326",
   "lastOpenFiles": [
+    "resume.md",
     "_site/resume.html",
     "_site/Résumé.html",
     "_posts/2010-08-10-pronounceable-password-generator.md",
     "_posts/2023-05-01-pronounceable-password-generator.md",
-    "resume.md",
     "_posts/2023-05-11-spending-bitcoin.md",
     "_posts/2017-06-27-refactoring-code-smells-with-service-objects.md",
     "_site/2017/06/27/refactoring-code-smells-with-service-objects.html",
@@ -206,7 +205,6 @@
     "_posts/2023-05-03-clark-moody-s-dashboard.md",
     "_site/links/2023/05/11/spending-bitcoin.html",
     "_site/links/2023/05/11",
-    "_site/links/2023/05/03/1ml-com.html",
     "_posts/2023-05-03-explorer-acinq-com.md",
     "_posts/2026-04-20-agentic-worktree-management.md",
     "posts.md",

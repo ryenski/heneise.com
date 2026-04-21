@@ -1,3 +1,12 @@
 {
-  "graph:open": []
+  "graph:open": [],
+  "file-explorer:reveal-active-file": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "D"
+    }
+  ]
 }
