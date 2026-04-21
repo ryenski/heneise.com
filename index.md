@@ -13,21 +13,21 @@ A few of the companies that I've had the pleasure of working with:
 
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-12 mb-20 bg-flexoki-paper shadow-2xl rounded-3xl px-2 py-6 mx-0 lg:-mx-20">
   <div class="flex items-center justify-center"><a href="https://gierd.com/">
-    {% svg ./assets/images/gierd-logo-theme-light.svg class="h-12" %}
+    {% svg ./assets/images/gierd-logo-theme-light.svg class="h-12 my-6" %}
   </a></div>
   <div class="flex items-center justify-center">
-    {% svg ./assets/images/boosterstage.svg class="h-12 fill-current text-gray-700" %}
+    {% svg ./assets/images/boosterstage.svg class="h-12 my-6" %}
  </div>
   <div class="flex items-center justify-center"><a href="https://memberdrive.org/">
-    {% svg ./assets/images/memberdrive.svg class="h-12" %}
+    {% svg ./assets/images/memberdrive.svg class="h-12 my-6" %}
   </a></div>
   <div class="flex items-center justify-center"><a href="https://dimegiving.com">
     {% svg ./assets/images/dime.svg class="h-12 fill-current text-gray-700" %}
   </a></div>
   <div class="flex items-center justify-center"><a href="https://swanbitcoin.com/" class='px-6'><img alt="Swan" class="max-h-12" src="./assets/images/swan.png" /></a></div>
   <div class="flex items-center justify-center"><a href="https://caregrove.com" class="px-6"><img alt="Caregrove" class="m-0 max-h-20" src="./assets/images/caregrove.png" /></a></div>
-  <div class="flex items-center justify-center"><a href="https://donortools.com" class="px-6"><img alt="DonorTools" class="m-0 max-h-10" src="./assets/images/donortools.png" /></a></div>
-   <div class="flex items-center justify-center"><a href="https://biola.edu/"><img alt="Biola University" class="m-0 max-h-16" src="./assets/images/biola-h.png" /></a></div>
+  <div class="flex items-center justify-center"><a href="https://donortools.com" class="px-6"><img alt="DonorTools" class="m-0 h-10" src="./assets/images/donortools.png" /></a></div>
+   <div class="flex items-center justify-center"><a href="https://biola.edu/"><img alt="Biola University" class="m-0 h-16" src="./assets/images/biola-h.png" /></a></div>
 
 </div>
 
