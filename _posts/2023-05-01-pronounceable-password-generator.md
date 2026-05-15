@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pronounceable Password Generator
+title: Pronounceable password generator
 date: 2023-05-01 16:40 -0500
 ---
 

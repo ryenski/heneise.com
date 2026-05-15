@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Value for Value
+title: Value for value
 date: 2023-05-01 06:45 -0500
 tags: 
   - lightning

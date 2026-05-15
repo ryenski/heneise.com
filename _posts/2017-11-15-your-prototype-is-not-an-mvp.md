@@ -1,6 +1,6 @@
 ---
 
-title: Don't Hide In The Garage While You Build Your Product
+title: Don't hide in the garage while you build your product
 subtitle: A prototype is not the same as an MVP (and why you shouldn't hide in your garage while building it)
 excerpt: MVPs have gotten a lot of hate lately. But that's because there's some confusion about the difference between an MVP and a prototype. 
 date: 2017-11-15 00:00 CST

@@ -1,5 +1,5 @@
 ---
-title: How to Make Software Like Pablo Picasso
+title: How to make software like Pablo Picasso
 subtitle: Who would have thought that a cubist's minimalism could teach us something about software design.
 description: What can we learn from the famous minimalist about designing successful software?
 excerpt: The question that the Critical Path designer asks is not “how much can we fit in to the first version and still hit our deadline”; it's “how little can we build to validate our ideas at this stage”.

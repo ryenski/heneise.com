@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Good Leaders Lead from the Front
+title: Good leaders lead from the front
 date: 2026-04-21 08:58 -0500
 image: /assets/images/2026-04-21-good-leaders-lead-from-the-front/jehyun-sung-6U5AEmQIajg-unsplash.jpg
 excerpt: It sounds too obvious to say. But leaders need to hear it. Especially startup founders. Your startup isn't going anywhere without strong, visible leadership.

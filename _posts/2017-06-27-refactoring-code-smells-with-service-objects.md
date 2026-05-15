@@ -1,5 +1,5 @@
 ---
-title: Refactoring Code Smells With Service Objects
+title: Refactoring code smells with service objects
 subtitle: Service objects are a powerful tool for cleaning up code duplication, fat models, and bloated controllers.
 date: 2017-06-27 00:00 CST
 tags: Ruby on Rails

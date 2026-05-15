@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Static Site Generators
+title: Static site generators
 date: 2023-04-30 08:23 -0500
 tags:
   - webdev

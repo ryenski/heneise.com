@@ -1,5 +1,5 @@
 ---
-title: How to Find the Perfect Domain
+title: How to find the perfect domain
 subtitle: How to choose the perfect domain for your SaaS product when all the best domains are taken.
 date: 2019-01-04 08:00 CST
 tags: Launch, Branding

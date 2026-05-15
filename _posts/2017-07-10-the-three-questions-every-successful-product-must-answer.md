@@ -1,6 +1,6 @@
 ---
 
-title: "The Three Questions Every Successful Product Must Answer"
+title: "The three questions every successful product must answer"
 subtitle: "If all you do is build it, I guarantee they will not come"
 short_title: Three Questions Your Product Must Answer
 excerpt: "If you build it they will come. This doesn’t happen in real life: if all you do is build it, I guarantee they will not come. Sorry to be the bearer of bad news. Many a startup has died in the field of dreams, waiting for customers to come to them."

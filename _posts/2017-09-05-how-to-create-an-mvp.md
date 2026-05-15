@@ -1,5 +1,5 @@
 ---
-title: How to Create Your MVP
+title: How to create your MVP
 subtitle: Launching an MVP is about the process, not the product.
 date: 2017-09-05 00:00 CST
 tags: MVP, Minimum Viable Product, Product Design, Launch

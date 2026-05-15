@@ -1,6 +1,6 @@
 ---
 
-title: "Automated Inbox Organization with + Addresses"
+title: "Automated inbox organization with + addresses"
 subtitle: 'Dig yourself out from under your inbox overload with the "+" trick'
 date: 2017-08-30 00:00 CST
 tags: Startup Productivity

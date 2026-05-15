@@ -1,6 +1,6 @@
 ---
 
-title: "The Purpose of Business is to Create and Keep a Customer"
+title: "The purpose of business is to create and keep a customer"
 subtitle: "Don't make the mistake of confusing the activities of business with its purpose. "
 date: 2017-06-19 00:00 CST
 tags: Product Validation, Business

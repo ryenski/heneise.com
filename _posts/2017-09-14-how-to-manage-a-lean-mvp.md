@@ -1,6 +1,6 @@
 ---
 
-title: How to Manage a Successful Lean MVP Project 
+title: How to manage a successful lean MVP project
 subtitle: How Agile methodologies can help make your MVP a success
 short_title: Managing Successful Lean MVPs
 date: 2017-09-14 00:00 CST

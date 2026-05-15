@@ -1,5 +1,5 @@
 ---
-title: Five Mistakes Smart Businesses Make When Launching a New Product
+title: Five mistakes smart businesses make when launching a new product
 subtitle: Even smart businesses can fall into these traps, but you don't have to.
 date: 2021-07-01 08:00 CST
 tags: Launch, branding

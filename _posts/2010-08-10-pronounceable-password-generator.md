@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pronounceable Password Generator
+title: Pronounceable password generator
 date: 2010-08-10 00:00 +0000
 published: true
 ---
