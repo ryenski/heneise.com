@@ -2,7 +2,7 @@
 layout: post
 title: Are my skills making Claude Dumber?
 date: 2026-05-15 09:35 -0500
-image: /assets/images/2026-05-15-are-my-skills-making-claude-dumber/cover.png
+image: /assets/images/2026-05-15-are-my-skills-making-claude-dumber/cover-2.png
 excerpt: More instruction is not always more intelligence. Sometimes it is just a more expensive way to make a smart agent act dumb.
 ---
 
