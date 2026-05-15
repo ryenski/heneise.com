@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a67986c5256af5af",
+        "id": "fcccb26a7138df2c",
         "type": "tabs",
         "children": [
           {
-            "id": "2b8c1d9bb509d79b",
+            "id": "1d5d004bc554b072",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "_posts/2026-04-21-good-leaders-lead-from-the-front.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "2026-04-21-good-leaders-lead-from-the-front"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "_posts/2026-04-21-good-leaders-lead-from-the-front.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for index"
+              "title": "Backlinks for 2026-04-21-good-leaders-lead-from-the-front"
             }
           },
           {
@@ -182,10 +182,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "2b8c1d9bb509d79b",
+  "active": "1d5d004bc554b072",
   "lastOpenFiles": [
-    "_posts/2026-04-21-good-leaders-lead-from-the-front.md",
     "index.md",
+    "_posts/2026-04-21-good-leaders-lead-from-the-front.md",
     "assets/images/2026-04-21-good-leaders-lead-from-the-front/jehyun-sung-6U5AEmQIajg-unsplash.jpg",
     "_posts/2017-12-03-launch-mvp-like-pablo-picacsso.md",
     "assets/images/2026-04-21-good-leaders-lead-from-the-front/jehyun-sung-6U5AEmQIajg-unsplash.jpg.sb-018e6983-UnWN9B",
