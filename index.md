@@ -2,7 +2,7 @@
 layout: default
 title: "Ryan Heneise"
 description: Principal Full-Stack Architect Engineer
-contact: Get in touch at <a class="link" href="mailto:ryan@heneise.com">ryan@heneise.com</a>
+contact: Get in touch at <a class="link" href="mailto:heneise@pm.me">heneise@pm.me</a>
 ---
 
 ## 👋 Hi, my name is Ryan Heneise.
