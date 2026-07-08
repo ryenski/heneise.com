@@ -37,6 +37,8 @@ A few years ago I started my own web development agency, called [Booster Stage](
 
 ## Current Projects
 
+- **Diurnum** &hellip; [diurnum.app](https://diurnum.app)\
+  An open-source, local-first alternative to QuickBooks for people who run their own books.
 - **MemberDrive** &hellip; [memberdrive.org](https://memberdrive.org)\
   MemberDrive is an innovative crowdfunding platform that helps organizations turn donors into engaged members. Members ❤️ MemberDrive.
 - **Chesterton Academy of Tyler** &hellip; [chestertontyler.org](https://chestertontyler.org)
@@ -61,12 +63,16 @@ A few years ago I started my own web development agency, called [Booster Stage](
   Designed and built DimeGiving.com, an online donation platform backed by double-entry accounting backend. \
   [dimegiving.com](https://dimegiving.com)
 
-- **Founder and Product Manager** at **Booster Stage**\
+- **Founder** at **Booster Stage**\
   Launched and grew a web development agency, providing outstanding value to clients in need of rapidly-deployed custom web-based software solutions.\
   [boosterstage.com](https://boosterstage.com)
 
-- **Founder and Developer** at **Donor Tools**\
+- **Founder** at **Donor Tools**\
   Designed and built DonorTools.com, one of the first modern web-based donor management and online donations systems for nonprofit organizations. \
   [donortools.com](https://donortools.com)
 
 For more work history, check out my [Resume](resume.md), and connect with me on [LinkedIn](https://www.linkedin.com/in/heneise)
+
+- [X](https://x.com/ryenski_dev)
+- [GitHub](https://github.com/ryenski)
+- [LinkedIn](https://www.linkedin.com/in/heneise)
