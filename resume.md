@@ -11,9 +11,9 @@ I build products that work for real humans. Over 20 years, I've shipped donation
 
 ## Core Competencies
 
-- **Leadership & Product Strategy**: Team building, Shape Up & Scrum methodologies, product roadmap development
-- **AI & Automation**: LLM integration (Claude, OpenAI), autonomous agent orchestration (marketing, bug triage, customer support, feature development), LLM-powered code analysis and generation, AI-assisted development workflows, self-hosted LLMs
-- **Backend**: Ruby on Rails, Node.js, PostgreSQL, Redis, Elasticsearch
+- **Leadership & Product Strategy**: Team building, Shape Up, Agile, Scrum methodologies, product roadmap development
+- **AI & Automation**: LLM integration, autonomous agent orchestration (marketing, bug triage, customer support, feature development), LLM-powered code analysis and generation, AI-assisted development workflows
+- **Backend**: Ruby on Rails, Node.js, PostgreSQL, Redis
 - **Data Engineering & Infrastructure**: dbt pipelines and data transformation, BigQuery, Docker containerization, GitHub workflow automation, AWS
 - **Frontend**: React, TailwindCSS, StimulusJS, modern JavaScript
 - **Domain Expertise**: SaaS, nonprofit tech, fintech, Bitcoin/blockchain, double-entry accounting
