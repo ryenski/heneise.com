@@ -2,7 +2,7 @@
 layout: default
 title: "Ryan Heneise"
 description: Principal Software Engineer
-contact: Tyler, Texas, USA • 903-376-7646 • ryan@heneise.com
+contact: Tyler, Texas, USA • 512-705-8752 • ryan@heneise.com
 ---
 
 # Summary
