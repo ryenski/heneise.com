@@ -7,13 +7,13 @@ contact: Tyler, Texas, USA • 512-705-8752 • heneise@pm.me
 
 # Summary
 
-I build products that work for real humans. Over 20 years, I've shipped donation platforms processing millions in charitable giving, scaled fintech products handling Bitcoin transactions, and led teams through the entire product lifecycle—from zero to production to profitability. I'm equally comfortable writing code, designing products, and talking strategy with executives. Best suited for senior engineering roles where you need someone who codes well _and_ thinks like a product owner.
+I build products that work for real humans. Over 20 years, I've shipped donation platforms processing millions in charitable giving, scaled fintech products handling Bitcoin transactions, and led teams through the entire product lifecycle—from zero to production to profitability. I'm equally comfortable writing code, designing products, and talking strategy with executives. Best suited for Principal/Staff-level engineering roles where you need someone who codes well _and_ thinks like a product owner.
 
 ## Core Competencies
 
 - **Leadership & Product Strategy**: Team building, Shape Up, Agile, Scrum methodologies, product roadmap development
 - **AI & Automation**: LLM integration, autonomous agent orchestration (marketing, bug triage, customer support, feature development), LLM-powered code analysis and generation, AI-assisted development workflows
-- **Backend**: Ruby on Rails, Node.js, PostgreSQL, Redis
+- **Backend**: Ruby on Rails, Node.js, PostgreSQL, MySQL, Redis, Sidekiq
 - **Data Engineering & Infrastructure**: dbt pipelines and data transformation, BigQuery, Docker containerization, GitHub workflow automation, AWS
 - **Frontend**: React, TailwindCSS, StimulusJS, modern JavaScript
 - **Domain Expertise**: SaaS, nonprofit tech, fintech, Bitcoin/blockchain, double-entry accounting
@@ -27,13 +27,16 @@ I build products that work for real humans. Over 20 years, I've shipped donation
 
 **December 2024 – Present**
 
-Gierd provides multi-channel marketplace orchestration, syndication, and competitive pricing intelligence for businesses that sell D2C products through marketplaces. In my role as Principal Architect Engineer, I guided architecture decisions across product and led engineering teams to ship new features while maintaining app stability and data integrity at scale.
+Gierd is an e-commerce technology startup processing an estimated $1 billion in Gross Merchandise Value (GMV), providing unified marketplace orchestration, syndication, and competitive pricing intelligence that helps brands scale direct-to-consumer and refurbishment operations across Amazon, eBay, Walmart, Back Market, and other marketplaces. In my role as Principal Architect Engineer, I guided architecture decisions across product and led engineering teams to ship new features while maintaining app stability and data integrity at scale.
 
 **Key Achievements:**
 
 - **Architected a resilient, scalable data extraction system** that ingests data from marketplace APIs at scale, feeds the data warehouse, and powers pricing analytics and automated repricing workflows
-- **Engineered AI code review automation that cut code review time from 30 minutes to 5**, unblocking engineers and helping them ship faster
+- **Engineered AI code review automation that cut code review time by more than 50%**, unblocking engineers and helping them ship faster
+- **Delivered under ambiguous requirements and complex architectural constraints**, using AI to develop new features and perform deep, cross-cutting systematic debugging across multiple interdependent systems
 - **Architected data pipelines** using dbt and BigQuery to transform complex repricing and syndication workflows into reliable, maintainable data systems
+- **Developed an internal skills library and "company brain"** that pulled together resources and knowledge from across the technology stack to provide deep research and quick answers to complex questions
+- **Worked closely with the VP of Engineering, CTO, and COO** to align engineering outcomes with business objectives
 - **Led cross-functional teams** across product, design, and engineering to align technical specifications, project scope, and data integrity across dependent systems
 
 **What matters:** Repricing and syndication directly impact revenue. My role is to make those systems fast, reliable, and understandable to both engineers and stakeholders—leveraging AI, data infrastructure, and architectural clarity to get there.
@@ -149,9 +152,9 @@ The Web Development Team at Biola University was charged with maintaining the Un
 
 ---
 
-# Volunteer Experience
+# Board Service & Volunteer Experience
 
-- Board Member, Chesterton Academy of Tyler, 2025 – present
+- **Board Member & Treasurer** (officer), Chesterton Academy of Tyler, 2025 – present
 - Volunteer, Haiti180 orphanage and medical clinic, 2019 & 2021
 - Vice President, Elgin Citizens' Police Academy Alumni Association, 2017 – 2019
 - Website Designer, Annunciation Maternity Home, 2016
