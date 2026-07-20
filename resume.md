@@ -2,12 +2,12 @@
 layout: default
 title: "Ryan Heneise"
 description: Principal Software Engineer
-contact: Tyler, Texas, USA • 512-705-8752 • heneise@pm.me
+contact: Tyler, Texas, USA • 903-376-7646 • heneise@pm.me
 ---
 
 # Summary
 
-I build products that work for real humans. Over 20 years, I've shipped donation platforms processing millions in charitable giving, scaled fintech products handling Bitcoin transactions, and led teams through the entire product lifecycle—from zero to production to profitability. I'm equally comfortable writing code, designing products, and talking strategy with executives. Best suited for Principal/Staff-level engineering roles where you need someone who codes well _and_ thinks like a product owner.
+I build products that work for real humans. Over 20 years, I've shipped donation platforms processing millions in charitable giving, scaled fintech products handling Bitcoin transactions, and led teams through the entire product lifecycle—from zero to production to profitability. Recently promoted to VP of Engineering, I'm deliberately choosing the individual-contributor track: my highest-leverage work is deep technical leadership—setting architecture and still shipping the code. I'm equally comfortable writing code, designing products, and talking strategy with executives. Best suited for Principal/Staff-level engineering roles where you need someone who codes well _and_ thinks like a product owner.
 
 ## Core Competencies
 
@@ -23,21 +23,38 @@ I build products that work for real humans. Over 20 years, I've shipped donation
 
 # Professional Experience
 
-## Principal Architect Engineer at Gierd, Inc.
+## Vice President of Engineering at Gierd, Inc.
 
-**December 2024 – Present**
+**July 2026 – Present**
 
-Gierd is an e-commerce technology startup processing an estimated $1 billion in Gross Merchandise Value (GMV), providing unified marketplace orchestration, syndication, and competitive pricing intelligence that helps brands scale direct-to-consumer and refurbishment operations across Amazon, eBay, Walmart, Back Market, and other marketplaces. In my role as Principal Architect Engineer, I guided architecture decisions across product and led engineering teams to ship new features while maintaining app stability and data integrity at scale.
+Gierd is an e-commerce technology startup serving marketplace sellers that process an estimated $1 billion in Gross Merchandise Value (GMV), providing unified marketplace orchestration, syndication, and competitive pricing intelligence that helps brands scale direct-to-consumer and refurbishment operations across Amazon, eBay, Walmart, Back Market, and other marketplaces. I was promoted from Principal Architect Engineer to lead engineering.
 
 **Key Achievements:**
 
-- **Architected a resilient, scalable data extraction system** that ingests data from marketplace APIs at scale, feeds the data warehouse, and powers pricing analytics and automated repricing workflows
-- **Engineered AI code review automation that cut code review time by more than 50%**, unblocking engineers and helping them ship faster
-- **Delivered under ambiguous requirements and complex architectural constraints**, using AI to develop new features and perform deep, cross-cutting systematic debugging across multiple interdependent systems
+- **Set architecture and delivery direction** for the repricing and syndication systems closest to revenue
+- **Drove adoption of AI-assisted engineering** across the team, from code review automation to agent-supported feature work and cross-system debugging
+- **Own reliability and data integrity** for the Rails platform that customers and the customer success team rely on daily
+- **Lead engineering across multiple teams** (front-end and UI, the Rails platform, data extraction, and site reliability), aligning technical scope, project priorities, and data integrity across dependent systems
+- **Partner with senior leadership** to align engineering outcomes with business objectives
+
+**Technologies**: Ruby on Rails, dbt, BigQuery, Docker, GitHub Actions, Claude, OpenAI, autonomous agent orchestration
+
+## Principal Architect Engineer at Gierd, Inc.
+
+**December 2024 – July 2026**
+
+Guided architecture decisions across product and led engineering teams to ship new features while maintaining app stability and data integrity at scale.
+
+**Key Achievements:**
+
+- **Led the mission-critical Rails platform** that customers and the customer success team use to manage product pricing and reporting; one of four designated code owners, its top contributor, and the primary reviewer on critical changes
+- **Led the design of a resilient, scalable data extraction system** that our team built to ingest data from marketplace APIs at scale, feed the data warehouse, and power pricing analytics and automated repricing workflows
+- **Caught and defused a cross-system coupling risk** in which a small change to a single locale rule would have silently rerouted an entire class of customers to a different international API, governed by an extraction routine living in a separate system; refactored the extractor provisioning so the locale configuration could ship without disturbing extraction API routing, avoiding downtime and a data backfill
+- **Helped our team build AI code review automation that cut code review time by more than 50%**, unblocking engineers and helping them ship faster
 - **Architected data pipelines** using dbt and BigQuery to transform complex repricing and syndication workflows into reliable, maintainable data systems
+- **Delivered under ambiguous requirements and complex architectural constraints**, using AI to develop new features and perform deep, cross-cutting systematic debugging across multiple interdependent systems
 - **Developed an internal skills library and "company brain"** that pulled together resources and knowledge from across the technology stack to provide deep research and quick answers to complex questions
 - **Worked closely with the VP of Engineering, CTO, and COO** to align engineering outcomes with business objectives
-- **Led cross-functional teams** across product, design, and engineering to align technical specifications, project scope, and data integrity across dependent systems
 
 **What matters:** Repricing and syndication directly impact revenue. My role is to make those systems fast, reliable, and understandable to both engineers and stakeholders—leveraging AI, data infrastructure, and architectural clarity to get there.
 
@@ -64,10 +81,9 @@ SRS Acquiom provides a Virtual Data Room (VDR) platform serving the M&A industry
 
 **Key Contributions:**
 
-- Implemented new features and fixed critical bugs in a large legacy Rails codebase
+- Implemented features and fixed critical bugs in a large legacy Rails codebase serving the M&A industry
 - Refactored subsystems to improve maintainability and reduce technical debt
-- Led code reviews and mentored team members on engineering best practices
-- Contributed to sprint planning and technical architecture discussions
+- Contributed to code reviews and sprint planning under a demanding engineering-quality bar
 
 **Technologies**: Ruby on Rails, PostgreSQL
 
