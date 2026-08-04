@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "Ryan Heneise"
-description: Principal Software Engineer
-contact: Tyler, Texas, USA • 903-376-7646 • heneise@pm.me
+description: VP of Engineering | Principal / Staff Engineer
+contact: Tyler, Texas, USA • 512-705-8752 • heneise@pm.me
 ---
 
 # Summary
@@ -49,7 +49,7 @@ Guided architecture decisions across product and led engineering teams to ship n
 
 - **Led the mission-critical Rails platform** that customers and the customer success team use to manage product pricing and reporting; one of four designated code owners, its top contributor, and the primary reviewer on critical changes
 - **Led the design of a resilient, scalable data extraction system** that our team built to ingest data from marketplace APIs at scale, feed the data warehouse, and power pricing analytics and automated repricing workflows
-- **Caught and defused a cross-system coupling risk** in which a small change to a single locale rule would have silently rerouted an entire class of customers to a different international API, governed by an extraction routine living in a separate system; refactored the extractor provisioning so the locale configuration could ship without disturbing extraction API routing, avoiding downtime and a data backfill
+- **Traced defects to root cause across interdependent systems**, working the dependency graph rather than the stack trace alone—caught a locale rule that quietly governed extraction API routing for an entire class of customers in a separate system, and refactored the provisioning so the change could ship safely
 - **Helped our team build AI code review automation that cut code review time by more than 50%**, unblocking engineers and helping them ship faster
 - **Architected data pipelines** using dbt and BigQuery to transform complex repricing and syndication workflows into reliable, maintainable data systems
 - **Delivered under ambiguous requirements and complex architectural constraints**, using AI to develop new features and perform deep, cross-cutting systematic debugging across multiple interdependent systems
@@ -160,6 +160,12 @@ The Web Development Team at Biola University was charged with maintaining the Un
 
 ---
 
+# Projects
+
+- **[Diurnum](https://github.com/Diurnum-Dev/Diurnum)** — Open-source plain-text accounting app (Rust, Tauri), architected and shipped entirely through autonomous AI agents. Features AI-assisted transaction categorization with confidence-gated human review and output validation, so AI drafts every entry but nothing reaches the ledger without human approval.
+
+---
+
 # Education
 
 - **Master of Arts in Organizational Leadership** — Biola University, 2007
@@ -174,3 +180,13 @@ The Web Development Team at Biola University was charged with maintaining the Un
 - Volunteer, Haiti180 orphanage and medical clinic, 2019 & 2021
 - Vice President, Elgin Citizens' Police Academy Alumni Association, 2017 – 2019
 - Website Designer, Annunciation Maternity Home, 2016
+
+---
+
+# Key Accomplishments
+
+- **Over 20 years of continuous full-stack development** across startups, agencies, and established companies
+- **Shipped products serving hundreds of organizations** (Dime Giving, Donor Tools) that process millions in annual transactions
+- **Built teams and established engineering culture** at multiple organizations — hiring, processes, and standards that outlasted my tenure
+- **Proven ability to bridge business and engineering** — equally comfortable shipping code or discussing product strategy with executives
+- **Mastered Shape Up methodology** and successfully applied it to reduce development cycle time and improve time-to-market
