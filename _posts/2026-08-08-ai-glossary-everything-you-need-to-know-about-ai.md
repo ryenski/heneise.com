@@ -3,6 +3,7 @@ layout: post
 title: Everything you need to know about AI
 subtitle: To sound like you know what you're talking about
 date: 2026-08-08 11:06 -0500
+image: /assets/images/2026-08-08-ai-glossary-everything-you-need-to-know-about-ai/cover.jpg
 excerpt: A plain-English glossary for understanding AI, agents, skills, harnesses, frontier models, and the rest of the vocabulary people keep throwing around.
 ---
 
