@@ -314,7 +314,6 @@ body.site {
 
 .display .l2 {
   display: block;
-  padding-left: 0.14em;
 }
 .display .period {
   color: var(--accent);
