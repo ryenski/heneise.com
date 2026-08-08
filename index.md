@@ -75,7 +75,7 @@ summary: Ryan Heneise, principal software engineer. I help small businesses get 
     <article class="work">
       <h3>Saint Joseph the Worker Capital Campaign</h3>
       <p class="role meta">Fundraising Committee</p>
-      <p class="desc prose">Serving on the fundraising committee for a parish building campaign. <a href="https://traditionandbeauty.com">traditionandbeauty.com</a></p>
+      <p class="desc prose">Served on the fundraising committee for a parish building campaign. <a href="https://traditionandbeauty.com">traditionandbeauty.com</a></p>
     </article>
 
     <article class="work">
