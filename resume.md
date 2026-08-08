@@ -2,7 +2,7 @@
 layout: default
 title: "Ryan Heneise"
 description: VP of Engineering | Principal / Staff Engineer
-contact: Tyler, Texas, USA • 512-705-8752 • heneise@pm.me
+contact: Tyler, Texas, USA • 512-705-8752 • ryan@heneise.com
 ---
 
 # Summary
