@@ -61,16 +61,22 @@ Length follows the subject. Basic pieces can stop once the mental model holds; a
 
 **Working length:** 2,400–3,200 words.
 
-| Level | Teaching outline |
-|---|---|
-| Beginner | Identify the chatbot as a product; define prompt and output; explain that the application adds information the user may not see. |
-| Intermediate | Show how current context, context-window limits, saved memory, files, and earlier messages shape a response. |
-| Advanced | Explain context compaction, buried information, hallucination sources, multimodal unevenness, and why identical prompts can behave differently across products. |
-| Go deeper | Compare a clean chat with a long conversation, inspect exported conversation data where available, test a model on screenshots, and build a simple context budget. |
+| Level        | Teaching outline                                                                                                                                                   |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Beginner     | Identify the chatbot as a product; define prompt and output; explain that the application adds information the user may not see.                                   |
+| Intermediate | Show how current context, context-window limits, saved memory, files, projects, and earlier messages shape a response; teach the reader to ask an agent to draft or refine the prompt itself. |
+| Advanced     | Explain context compaction, buried information, hallucination sources, and multimodal unevenness; show how to delegate a complex sequence of work without either micromanaging every step or granting careless autonomy. |
+| Go deeper    | Compare a clean chat with a long conversation, a one-off chat with a persistent project, and a first-draft prompt with an agent-refined prompt; test a model on screenshots and build a simple context budget. |
 
 **Prose path:** Follow one message from the text box to the final output. Add the hidden system instructions, history, files, memories, and possible tool results along the way. Use that path to explain why hallucinations happen and why “the same prompt” is rarely a controlled comparison.
 
-**Practical tips:** Start a clean conversation when old context has become a liability; supply authoritative material for factual work; ask for citations and verify them; test each input mode instead of assuming “multimodal” means equally capable everywhere.
+Add a practical prompting section after the mechanics are clear. Show the reader that prompt writing can itself be delegated: describe the outcome, ask the agent what information is missing, have it write a stronger prompt, then refine that prompt together. Include an example where a vague request becomes useful through one round of agent-written questions rather than through a long collection of copied prompt tricks.
+
+Encourage readers to expect more from capable agents. Give the agent a meaningful outcome or a sequence that seems slightly too large for one request, ask it to inspect the available context and propose a plan, then let it work through the plan with explicit checkpoints for destructive or external actions. The lesson is not blind trust. It is to stop reducing every job to tiny instructions before the agent has had a chance to show how much of the problem it can hold.
+
+Explain context as something the user can design. Attaching source files, placing related work inside a project, supplying examples, and letting the agent inspect an existing codebase or document set usually gives it more to work with than another paragraph of abstract prompting advice. Contrast a pasted fragment with a project that contains the relevant files and history.
+
+**Practical tips:** Ask the agent to write or improve the prompt; let it ask questions before drafting; state the outcome and constraints rather than prescribing every move; attach authoritative files or work inside a persistent project; give it a complex task and judge the plan before deciding it is too much; require approval before messages, purchases, deployments, deletions, or other consequential actions; start a clean conversation when old context becomes a liability; ask for citations and verify them.
 
 ## Article 3: How AI finds information, reasons, and changes behavior
 
