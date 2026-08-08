@@ -26,3 +26,5 @@ exclude:
   - postcss.config.js
   - README.md
   - CLAUDE.md
+  - .agents/
+  - .claude/
