@@ -3,8 +3,7 @@
 
   var root = document.documentElement
   var btn = document.getElementById("themeToggle")
-  var lbl = document.getElementById("themeLabel")
-  if (!btn || !lbl) return
+  if (!btn) return
 
   function isDark() {
     var t = root.getAttribute("data-theme")
@@ -12,10 +11,10 @@
     return window.matchMedia("(prefers-color-scheme: dark)").matches
   }
 
-  // The label names the theme you'd switch TO, not the one you're in.
+  // CSS swaps the sun/moon glyph off data-theme; all that's left here is the
+  // accessible name, which — like the icon — names the theme you'd switch TO.
   function syncLabel() {
     var dark = isDark()
-    lbl.textContent = dark ? "Light" : "Dark"
     btn.setAttribute("aria-pressed", dark ? "true" : "false")
     btn.setAttribute("aria-label", dark ? "Switch to light theme" : "Switch to dark theme")
   }

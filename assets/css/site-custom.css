@@ -219,24 +219,61 @@ body.site {
   border-bottom-color: var(--accent);
 }
 
+/* The nav aligns on the baseline, which an icon has no business sitting on;
+   centring the button against the line box lands it on the optical middle of
+   the uppercase labels instead. */
 .toggle {
   appearance: none;
   background: none;
   border: 0;
-  padding: 0 0 2px;
+  padding: 0;
   margin: 0;
   cursor: pointer;
-  font-family: var(--font-sans);
-  font-size: 12px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  display: inline-flex;
+  align-self: center;
   color: var(--muted);
-  border-bottom: 1px solid var(--rule-2);
+  transition: color 0.15s ease;
 }
 
 .toggle:hover {
   color: var(--ink);
-  border-bottom-color: var(--ink);
+}
+
+.toggle-icon {
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+
+/* Show the theme you'd switch TO: moon while light, sun while dark — the same
+   promise the word label used to make. */
+.toggle-icon-sun {
+  display: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .toggle-icon-moon {
+    display: none;
+  }
+  :root:not([data-theme="light"]) .toggle-icon-sun {
+    display: block;
+  }
+}
+
+:root[data-theme="dark"] .toggle-icon-moon {
+  display: none;
+}
+
+:root[data-theme="dark"] .toggle-icon-sun {
+  display: block;
+}
+
+:root[data-theme="light"] .toggle-icon-moon {
+  display: block;
+}
+
+:root[data-theme="light"] .toggle-icon-sun {
+  display: none;
 }
 
 @media (max-width: 37rem) {
@@ -252,10 +289,13 @@ body.site {
     gap: 0.95rem;
     flex-wrap: nowrap;
   }
-  .nav a,
-  .toggle {
+  .nav a {
     font-size: 11px;
     letter-spacing: 0.08em;
+  }
+  .toggle-icon {
+    width: 15px;
+    height: 15px;
   }
 }
 
