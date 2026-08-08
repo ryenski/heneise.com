@@ -724,7 +724,6 @@ figure.plate {
   line-height: 1.25;
   color: var(--ink-2);
   margin: calc(var(--b) * 2) 0 0;
-  max-width: 34ch;
 }
 
 .page-contact {
