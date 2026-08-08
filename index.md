@@ -9,7 +9,7 @@ summary: Ryan Heneise, principal software engineer. I help small businesses get 
   <div class="hero-top">
     <div class="hero-titles">
       <h1 class="display">Ryan<span class="l2">Heneise<span class="period">.</span></span></h1>
-      <p class="hero-lede">I help small businesses get real work out of AI. Twenty years of Ruby on Rails underneath.</p>
+      <p class="hero-lede">I help small businesses get real work out of AI. Twenty years of full-stack Rails underneath.</p>
     </div>
     <img
       class="portrait"
@@ -25,7 +25,7 @@ summary: Ryan Heneise, principal software engineer. I help small businesses get 
   <div class="hero-body">
     <div class="prose">
       <p>I have spent two decades building web applications end to end: shaping the product, drawing the schema, writing the CSS, carrying the pager. I fell for Ruby on Rails the year it arrived and never really left, and the 37signals way of working came along with it.</p>
-      <p>I run projects on <a href="https://basecamp.com/shapeup">Shape Up</a>, fixed time and variable scope, because that is how large things actually get finished. Along the way I founded <a href="https://boosterstage.com">Booster Stage</a>, a web development agency, and <a href="https://donortools.com">Donor Tools</a>, one of the first web-based donor management systems for nonprofits.</p>
+      <p>I run projects on <a href="https://basecamp.com/shapeup">Shape Up</a>, fixed time and variable scope, because that is how large things actually get finished. Along the way I founded <a href="https://memberdrive.org">MemberDrive</a>, a fundraising platform, and <a href="https://donortools.com">Donor Tools</a>, one of the first web-based donor management systems for nonprofits, and Booster Stage, a web development agency.</p>
     </div>
   </div>
 </section>
@@ -102,57 +102,57 @@ summary: Ryan Heneise, principal software engineer. I help small businesses get 
 
   <div class="index">
     <article class="entry">
-      <p class="num meta"><span class="mark">Now</span></p>
+      <p class="num meta"><span class="mark">Since 2024</span></p>
       <div class="body">
         <h3>Gierd, Inc.</h3>
         <p class="desc prose">Principal Software Engineer. Marketplace orchestration, syndication, and competitive pricing intelligence for brands selling across Amazon, eBay, and Walmart. <a href="https://gierd.com">gierd.com</a></p>
       </div>
-      <p class="side meta"><span class="role mark">Current</span>Since 2024</p>
+      <p class="side meta"><span class="role mark">Current</span></p>
     </article>
 
     <article class="entry">
-      <p class="num meta"></p>
+      <p class="num meta">2023-24</p>
       <div class="body">
         <h3>SRS Acquiom</h3>
         <p class="desc prose">Senior software engineer on a virtual data room platform serving the M&amp;A industry. <a href="https://srsacquiom.com">srsacquiom.com</a></p>
       </div>
-      <p class="side meta"><span class="role">Senior Engineer</span>2023-24</p>
+      <p class="side meta"><span class="role">Senior Engineer</span></p>
     </article>
 
     <article class="entry">
-      <p class="num meta"></p>
+      <p class="num meta">2022</p>
       <div class="body">
         <h3>Swan Bitcoin</h3>
         <p class="desc prose">Senior full-stack engineer building swanbitcoin.com for individual and institutional investors. <a href="https://swanbitcoin.com">swanbitcoin.com</a></p>
       </div>
-      <p class="side meta"><span class="role">Senior Engineer</span>2022</p>
+      <p class="side meta"><span class="role">Senior Engineer</span></p>
     </article>
 
     <article class="entry">
-      <p class="num meta"></p>
+      <p class="num meta">2019-22</p>
       <div class="body">
         <h3>Dime Giving</h3>
         <p class="desc prose">Wrote the first line of code and led the team, building an online donation platform on a double-entry accounting core. <a href="https://dimegiving.com">dimegiving.com</a></p>
       </div>
-      <p class="side meta"><span class="role">Lead Developer</span>2019-22</p>
+      <p class="side meta"><span class="role">Lead Developer</span></p>
     </article>
 
     <article class="entry">
-      <p class="num meta"></p>
+      <p class="num meta">2004-19</p>
       <div class="body">
         <h3>Booster Stage</h3>
         <p class="desc prose">Founded and grew a web development agency delivering custom software on Shape Up cycles, from a solo operation to a team. <a href="https://boosterstage.com">boosterstage.com</a></p>
       </div>
-      <p class="side meta"><span class="role">Founder</span>2004-19</p>
+      <p class="side meta"><span class="role">Founder</span></p>
     </article>
 
     <article class="entry">
-      <p class="num meta"></p>
+      <p class="num meta">2007-14</p>
       <div class="body">
         <h3>Donor Tools</h3>
         <p class="desc prose">One of the first modern web-based donor management and online donation systems for nonprofits, grown to over 600 customers. <a href="https://donortools.com">donortools.com</a></p>
       </div>
-      <p class="side meta"><span class="role">Founder</span>2007-14</p>
+      <p class="side meta"><span class="role">Founder</span></p>
     </article>
 
   </div>
