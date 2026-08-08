@@ -1,0 +1,42 @@
+<header class="masthead">
+  <div class="wrap">
+    <a class="sig" href="{{ "/" | relative_url }}">Ryan&nbsp;Heneise</a>
+    <nav class="nav" aria-label="Primary">
+      <a
+        href="{{ "/" | relative_url }}"
+        {% if page.url == '/' %}
+          aria-current="page"
+        {% endif %}
+      >
+        Home
+      </a>
+      <a
+        href="{{ "/resume" | relative_url }}"
+        {% if page.url contains '/resume' %}
+          aria-current="page"
+        {% endif %}
+      >
+        Résumé
+      </a>
+      <a
+        href="{{ "/now" | relative_url }}"
+        {% if page.url contains '/now' %}
+          aria-current="page"
+        {% endif %}
+      >
+        Now
+      </a>
+      <a
+        href="{{ "/posts" | relative_url }}"
+        {% if page.url contains '/posts' or page.layout == 'post' %}
+          aria-current="page"
+        {% endif %}
+      >
+        Posts
+      </a>
+      <button class="toggle" id="themeToggle" type="button" aria-pressed="false">
+        <span id="themeLabel">Dark</span>
+      </button>
+    </nav>
+  </div>
+</header>

@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     {% include theme-init.html %}
     <title>{{ site.title }} — {{ page.description }}</title>
+    <meta name="description" content="{{ page.summary | default: page.description }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -15,19 +16,8 @@
 
   <body class="site">
     {% include masthead.html %}
-    <main class="wrap page">
-      <header class="page-head">
-        <h1 class="page-title">{{ page.title }}</h1>
-        {% if page.description %}
-          <p class="page-sub">{{ page.description }}</p>
-        {% endif %}
-        {% if page.contact %}
-          <p class="page-contact meta">{{ page.contact }}</p>
-        {% endif %}
-      </header>
-      <div class="prose">
-        {{ content }}
-      </div>
+    <main>
+      {{ content }}
     </main>
     {% include site-footer.html %}
     {% include scripts.html %}

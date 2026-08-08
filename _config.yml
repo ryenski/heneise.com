@@ -8,3 +8,18 @@ plugins:
 
 postcss:
   cache: false
+
+# Full-resolution source screenshots and the original headshot are kept in the
+# repo but never published — the site only serves the derivatives in
+# assets/images/work and assets/images/portrait*.webp.
+exclude:
+  - assets/images/portfolio/
+  - assets/images/profile 2024 improved.png
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - yarn.lock
+  - postcss.config.js
+  - README.md
+  - CLAUDE.md

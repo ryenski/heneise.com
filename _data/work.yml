@@ -1,0 +1,54 @@
+# Portfolio plates, newest first. `slug` matches assets/images/work/<slug>.webp
+# and its 800px companion <slug>-sm.webp.
+- slug: memberdrive-crm
+  title: MemberDrive — Donor CRM
+  year: 2026
+  tags: Product · Rails · UI
+- slug: memberdrive-connections
+  title: MemberDrive — Connections
+  year: 2026
+  tags: Integrations · UI
+- slug: memberdrive-matching
+  title: MemberDrive — Matching Gifts
+  year: 2026
+  tags: Product · UI
+- slug: memberdrive-self-service
+  title: MemberDrive — Donor Self-Service
+  year: 2026
+  tags: Self-service · UI
+- slug: dime-donate
+  title: Dime Giving — Donation Flow
+  year: 2021
+  tags: Payments · UX
+- slug: dime-balance-sheet
+  title: Dime Giving — Balance Sheet
+  year: 2020
+  tags: Accounting · UI
+- slug: caregrove-report
+  title: CareGrove — Payments Report
+  year: 2020
+  tags: Reporting · UI
+- slug: caregrove-recurring
+  title: CareGrove — Recurring Payments
+  year: 2020
+  tags: Billing · UI
+- slug: caregrove-resident
+  title: CareGrove — Resident Payments
+  year: 2020
+  tags: Payments · UI
+- slug: annunciation
+  title: Annunciation Maternity Home
+  year: 2017
+  tags: Web · Nonprofit
+- slug: contentupgrade
+  title: ContentUpgrade.me
+  year: 2017
+  tags: SaaS · Marketing
+- slug: donortools-dashboard
+  title: Donor Tools — Dashboard
+  year: 2010
+  tags: SaaS · Rails
+- slug: donortools-home
+  title: Donor Tools — Home
+  year: 2010
+  tags: Web · SaaS

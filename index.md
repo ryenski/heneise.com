@@ -1,78 +1,186 @@
 ---
-layout: default
+layout: home
 title: "Ryan Heneise"
-description: Principal Full-Stack Architect Engineer
-contact: Get in touch at <a class="link" href="mailto:heneise@pm.me">heneise@pm.me</a>
+description: Principal Software Engineer
+summary: Ryan Heneise — principal software engineer. I help small businesses get real work out of AI, on twenty years of Ruby on Rails.
 ---
 
-## 👋 Hi, my name is Ryan Heneise.
+<section class="wrap hero">
+  <div class="dateline meta">
+    <span>Tyler, Texas</span>
+    <span>Ruby on Rails since 2005</span>
+    <span>AI Concierge</span>
+  </div>
 
-I'm an entrepreneur and principal full-stack software engineer and Shape Up project manager. I love making things, especially on the web. With over twenty years experience developing web applications, I've been involved in all aspects of the product delivery cycle.
+  <div class="hero-top">
+    <div class="hero-titles">
+      <h1 class="display">Ryan<span class="l2">Heneise<span class="period">.</span></span></h1>
+      <p class="hero-lede">I help small businesses get real work out of AI. Twenty years of Ruby on Rails underneath.</p>
+    </div>
+    <img
+      class="portrait"
+      src="{{ "/assets/images/portrait.webp" | relative_url }}"
+      srcset="{{ "/assets/images/portrait-sm.webp" | relative_url }} 280w, {{ "/assets/images/portrait.webp" | relative_url }} 560w"
+      sizes="(min-width: 62rem) 15rem, 9rem"
+      alt="Ryan Heneise"
+      width="560"
+      height="560"
+    >
+  </div>
 
-A few of the companies that I've had the pleasure of working with:
+  <div class="hero-body">
+    <p class="lbl meta">Biography</p>
+    <div class="prose">
+      <p>I have spent two decades building web applications end to end: shaping the product, drawing the schema, writing the CSS, carrying the pager. I fell for Ruby on Rails the year it arrived and never really left, and the 37signals way of working came along with it.</p>
+      <p>I run projects on <a href="https://basecamp.com/shapeup">Shape Up</a> — fixed time, variable scope — because that is how large things actually get finished. Along the way I founded <a href="https://boosterstage.com">Booster Stage</a>, a web development agency, and <a href="https://donortools.com">Donor Tools</a>, one of the first web-based donor management systems for nonprofits.</p>
+    </div>
+  </div>
+</section>
 
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-12 mb-20 bg-flexoki-paper shadow-2xl rounded-3xl px-2 py-6 mx-0 lg:-mx-20">
-  <div class="flex items-center justify-center"><a href="https://gierd.com/">
-    {% svg ./assets/images/gierd-logo-theme-light.svg class="h-12 my-6" %}
-  </a></div>
-  <div class="flex items-center justify-center">
-    {% svg ./assets/images/boosterstage.svg class="h-12 my-6" %}
- </div>
-  <div class="flex items-center justify-center"><a href="https://memberdrive.org/">
-    {% svg ./assets/images/memberdrive.svg class="h-12 my-6" %}
-  </a></div>
-  <div class="flex items-center justify-center"><a href="https://dimegiving.com">
-    {% svg ./assets/images/dime.svg class="h-12 fill-current text-gray-700" %}
-  </a></div>
-  <div class="flex items-center justify-center"><a href="https://swanbitcoin.com/" class='px-6'><img alt="Swan" class="max-h-12" src="./assets/images/swan.png" /></a></div>
-  <div class="flex items-center justify-center"><a href="https://caregrove.com" class="px-6"><img alt="Caregrove" class="m-0 max-h-20" src="./assets/images/caregrove.png" /></a></div>
-  <div class="flex items-center justify-center"><a href="https://donortools.com" class="px-6"><img alt="DonorTools" class="m-0 h-10" src="./assets/images/donortools.png" /></a></div>
-   <div class="flex items-center justify-center"><a href="https://biola.edu/"><img alt="Biola University" class="m-0 h-16" src="./assets/images/biola-h.png" /></a></div>
+<section class="wrap section" id="clients">
+  <div class="section-head">
+    <p class="folio meta">01 — Clients</p>
+    <h2 class="section-title">A few of the companies I have worked with.</h2>
+    <p class="section-note">Product work, platform work, and a fair amount of unglamorous accounting logic.</p>
+  </div>
+  <ul class="clients">
+    <li><span class="name">Gierd</span><span class="yrs meta">2024 —</span></li>
+    <li><span class="name">Booster Stage</span><span class="yrs meta">2004 — 19</span></li>
+    <li><span class="name">MemberDrive</span><span class="yrs meta">2022 —</span></li>
+    <li><span class="name">Dime Giving</span><span class="yrs meta">2019 — 22</span></li>
+    <li><span class="name">Swan Bitcoin</span><span class="yrs meta">2022</span></li>
+    <li><span class="name">CareGrove</span><span class="yrs meta">2020</span></li>
+    <li><span class="name">Donor Tools</span><span class="yrs meta">2007 — 14</span></li>
+    <li><span class="name">Biola University</span><span class="yrs meta">2004</span></li>
+  </ul>
+</section>
 
-</div>
+<section class="wrap section" id="projects">
+  <div class="section-head">
+    <p class="folio meta">02 — Current</p>
+    <h2 class="section-title">Recent projects.</h2>
+    <p class="section-note">Things I am building, funding, or keeping the books for right now.</p>
+  </div>
 
-I fall into the category of "Ruby on Rails Developer". Ever since learning about Ruby on Rails when it first come out, I've been in love with Rails, and by extension, the 37Signals/Basecamp way of doing things.
+  <div class="index">
+    <article class="entry">
+      <p class="num meta">01</p>
+      <div class="body">
+        <h3>Diurnum</h3>
+        <p class="desc prose">An open-source, local-first alternative to QuickBooks, built for people who keep their own books and would rather not rent their ledger by the month. <a href="https://diurnum.app">diurnum.app</a></p>
+      </div>
+      <p class="side meta"><span class="role">Founder</span>Rails · Local-first</p>
+    </article>
 
-A few years ago I started my own web development agency, called [Booster Stage](https://boosterstage.com). Since I was the boss of applesauce, I was able to implement a variation of the [Shape Up](https://basecamp.com/shapeup) project methodology for clients with great success. Clients love Shape Up because it helps to reduce risk by shipping big things fast. Developers love Shape Up because it helps to focus deliverables and provides generous but well-defined timeframes.
+    <article class="entry">
+      <p class="num meta">02</p>
+      <div class="body">
+        <h3>MemberDrive</h3>
+        <p class="desc prose">A crowdfunding platform that turns one-time donors into engaged members — recurring giving, a donor CRM, and matching gifts under one roof. <a href="https://memberdrive.org">memberdrive.org</a></p>
+      </div>
+      <p class="side meta"><span class="role">Founder</span>Rails · Payments</p>
+    </article>
 
-## Current Projects
+    <article class="entry">
+      <p class="num meta">03</p>
+      <div class="body">
+        <h3>Chesterton Academy of Tyler</h3>
+        <p class="desc prose">A classical high school in the Catholic tradition. I sit on the board as Treasurer. <a href="https://chestertontyler.org">chestertontyler.org</a></p>
+      </div>
+      <p class="side meta"><span class="role">Board Treasurer</span>Nonprofit</p>
+    </article>
 
-- **Diurnum** &hellip; [diurnum.app](https://diurnum.app)\
-  An open-source, local-first alternative to QuickBooks for people who run their own books.
-- **MemberDrive** &hellip; [memberdrive.org](https://memberdrive.org)\
-  MemberDrive is an innovative crowdfunding platform that helps organizations turn donors into engaged members. Members ❤️ MemberDrive.
-- **Chesterton Academy of Tyler** &hellip; [chestertontyler.org](https://chestertontyler.org)
-  Chesterton Academy is a classical high school in the Catholic tradition. I serve on the Board of Directors as Treasurer.
-- **Saint Joseph the Worker Capital Campaign** &hellip; [traditionandbeauty.com](https://traditionandbeauty.com)\
-  Serving as a member of the fundraising committee.
-- **Ragtime Ranch Family Farm** &hellip; [ragtimeranch.substack.com](https://ragtimeranch.substack.com)
+    <article class="entry">
+      <p class="num meta">04</p>
+      <div class="body">
+        <h3>Saint Joseph the Worker Capital Campaign</h3>
+        <p class="desc prose">Serving on the fundraising committee for a parish building campaign. <a href="https://traditionandbeauty.com">traditionandbeauty.com</a></p>
+      </div>
+      <p class="side meta"><span class="role">Committee</span>Fundraising</p>
+    </article>
 
-## Recent Work History
+    <article class="entry">
+      <p class="num meta">05</p>
+      <div class="body">
+        <h3>Ragtime Ranch Family Farm</h3>
+        <p class="desc prose">Notes from a family farm, written on the days the animals allow it. <a href="https://ragtimeranch.substack.com">ragtimeranch.substack.com</a></p>
+      </div>
+      <p class="side meta"><span class="role">Writing</span>Substack</p>
+    </article>
 
-- <strong class="text-red-500">Currently:</strong> Principal Software Engineer at **Gierd, Inc.**\
-  [gierd.com](https://gierd.com)
+  </div>
+</section>
 
-- **Senior Software Engineer** at **SRS Acquiom**\
-  [srsacquiom.com](https://srsacquiom.com)
+<section class="wrap section" id="portfolio">
+  <div class="section-head">
+    <p class="folio meta">03 — Plates</p>
+    <h2 class="section-title">Selected screens, 2010 — 2026.</h2>
+    <p class="section-note">{{ site.data.work | size }} plates from shipped products. Select any one to view it full size; arrow keys move through the set.</p>
+  </div>
+  {% include portfolio.html %}
+</section>
 
-- **Senior Full Stack Engineer** at **Swan Bitcoin**\
-  Building swanbitcoin.com.\
-  [swanbitcoin.com](https://swanbitcoin.com)
+<section class="wrap section" id="work">
+  <div class="section-head">
+    <p class="folio meta">04 — History</p>
+    <h2 class="section-title">Recent work history.</h2>
+    <p class="section-note">The long version lives on the <a class="link" href="{{ "/resume" | relative_url }}">résumé</a>.</p>
+  </div>
 
-- **Lead Developer** at **Dime Giving**\
-  Designed and built DimeGiving.com, an online donation platform backed by double-entry accounting backend. \
-  [dimegiving.com](https://dimegiving.com)
+  <div class="index">
+    <article class="entry">
+      <p class="num meta"><span class="mark">Now</span></p>
+      <div class="body">
+        <h3>Gierd, Inc.</h3>
+        <p class="desc prose">Principal Software Engineer. Marketplace orchestration, syndication, and competitive pricing intelligence for brands selling across Amazon, eBay, and Walmart. <a href="https://gierd.com">gierd.com</a></p>
+      </div>
+      <p class="side meta"><span class="role mark">Current</span>2024 —</p>
+    </article>
 
-- **Founder** at **Booster Stage**\
-  Launched and grew a web development agency, providing outstanding value to clients in need of rapidly-deployed custom web-based software solutions.\
-  [boosterstage.com](https://boosterstage.com)
+    <article class="entry">
+      <p class="num meta">—</p>
+      <div class="body">
+        <h3>SRS Acquiom</h3>
+        <p class="desc prose">Senior software engineer on a virtual data room platform serving the M&amp;A industry. <a href="https://srsacquiom.com">srsacquiom.com</a></p>
+      </div>
+      <p class="side meta"><span class="role">Senior Engineer</span>2023 — 24</p>
+    </article>
 
-- **Founder** at **Donor Tools**\
-  Designed and built DonorTools.com, one of the first modern web-based donor management and online donations systems for nonprofit organizations. \
-  [donortools.com](https://donortools.com)
+    <article class="entry">
+      <p class="num meta">—</p>
+      <div class="body">
+        <h3>Swan Bitcoin</h3>
+        <p class="desc prose">Senior full-stack engineer building swanbitcoin.com for individual and institutional investors. <a href="https://swanbitcoin.com">swanbitcoin.com</a></p>
+      </div>
+      <p class="side meta"><span class="role">Senior Engineer</span>2022</p>
+    </article>
 
-For more work history, check out my [Resume](resume.md), and connect with me on [LinkedIn](https://www.linkedin.com/in/heneise)
+    <article class="entry">
+      <p class="num meta">—</p>
+      <div class="body">
+        <h3>Dime Giving</h3>
+        <p class="desc prose">Wrote the first line of code and led the team, building an online donation platform on a double-entry accounting core. <a href="https://dimegiving.com">dimegiving.com</a></p>
+      </div>
+      <p class="side meta"><span class="role">Lead Developer</span>2019 — 22</p>
+    </article>
 
-- [X](https://x.com/ryenski_dev)
-- [GitHub](https://github.com/ryenski)
-- [LinkedIn](https://www.linkedin.com/in/heneise)
+    <article class="entry">
+      <p class="num meta">—</p>
+      <div class="body">
+        <h3>Booster Stage</h3>
+        <p class="desc prose">Founded and grew a web development agency delivering custom software on Shape Up cycles, from a solo operation to a team. <a href="https://boosterstage.com">boosterstage.com</a></p>
+      </div>
+      <p class="side meta"><span class="role">Founder</span>2004 — 19</p>
+    </article>
+
+    <article class="entry">
+      <p class="num meta">—</p>
+      <div class="body">
+        <h3>Donor Tools</h3>
+        <p class="desc prose">One of the first modern web-based donor management and online donation systems for nonprofits, grown to over 600 customers. <a href="https://donortools.com">donortools.com</a></p>
+      </div>
+      <p class="side meta"><span class="role">Founder</span>2007 — 14</p>
+    </article>
+
+  </div>
+</section>
