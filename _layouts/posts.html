@@ -3,14 +3,12 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    {% include theme-init.html %}
-    <title>{{ site.title }} — {{ page.title }}</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-      rel="stylesheet"
-      href="{{ "/assets/css/main.css" | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}"
+    <title>{{ site.title }} - {{ page.title }}</title>
+    <meta
+      name="description"
+      content="{{ page.description | default: page.summary | default: site.description }}"
     >
+    {% include head-common.html %}
   </head>
 
   <body class="site">

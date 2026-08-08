@@ -1,19 +1,25 @@
 /* ───────────────────────────────────────────────────────────────
-   heneise.com — "Editorial Restraint"
+   heneise.com - "Editorial Restraint"
 
    The whole system is one threshold:
-     1. Instrument Serif is a DISPLAY face. It appears at 1.25rem and up —
+     1. EB Garamond is a DISPLAY face here. It appears at 1.25rem and up:
         the name, ledes, section titles, entry headings, the closing line.
-        Its thin strokes and high contrast fall apart below that, badly so
-        on the dark ground, so it is never used for running text.
-     2. Inter carries everything read at length: body prose, descriptions,
+        Its old-style proportions and small x-height make it soft at running
+        sizes, so it is never used for body text.
+     2. Geist carries everything read at length: body prose, descriptions,
         captions, notes, footer links.
-     3. Inter also carries apparatus — nav, folios, years, tags, labels —
-        at 11px, uppercase, tracked. Never a sentence.
+     3. Geist also carries apparatus (nav, years, tags, labels) at 11px,
+        uppercase, tracked. Never a sentence, and rationed: the page gets
+        at most two of these labels total, or the apparatus becomes the
+        design instead of serving it.
 
    Separators are 1px hairlines in two weights plus whitespace. No cards,
    no shadows, no radii. One accent (Flexoki red) on links, the period
    after the name, and the "Now" marker.
+
+   Both secondary text colors clear WCAG AA on both grounds: --muted is
+   7.1:1 light and 7.1:1 dark, --faint is 5.0:1 light and 5.2:1 dark.
+   Nothing on the page is allowed to be fainter than --faint.
 
    These rules sit outside @layer on purpose: unlayered CSS outranks
    Tailwind's layered utilities, so the design system wins without !important.
@@ -23,8 +29,8 @@
   --paper: var(--color-flexoki-paper);
   --ink: var(--color-flexoki-black);
   --ink-2: var(--color-flexoki-base-900);
-  --muted: var(--color-flexoki-base-600);
-  --faint: var(--color-flexoki-base-500);
+  --muted: var(--color-flexoki-base-700);
+  --faint: var(--color-flexoki-base-600);
   --rule: var(--color-flexoki-base-100);
   --rule-2: var(--color-flexoki-base-200);
   --plate: var(--color-flexoki-base-50);
@@ -34,7 +40,7 @@
   --b: 8px; /* baseline; every vertical margin is a multiple */
   --gutter: clamp(1.25rem, 5vw, 4.5rem);
   --measure: 34rem;
-  --hang: 8.5rem; /* left margin column for folios and labels */
+  --hang: 8.5rem; /* work-history marker column; nothing else hangs now */
   color-scheme: light;
 }
 
@@ -43,8 +49,8 @@
     --paper: var(--color-flexoki-black);
     --ink: var(--color-flexoki-base-100);
     --ink-2: var(--color-flexoki-base-200);
-    --muted: var(--color-flexoki-base-500);
-    --faint: var(--color-flexoki-base-600);
+    --muted: var(--color-flexoki-base-400);
+    --faint: var(--color-flexoki-base-500);
     --rule: var(--color-flexoki-base-900);
     --rule-2: var(--color-flexoki-base-800);
     --plate: var(--color-flexoki-base-950);
@@ -58,8 +64,8 @@
   --paper: var(--color-flexoki-black);
   --ink: var(--color-flexoki-base-100);
   --ink-2: var(--color-flexoki-base-200);
-  --muted: var(--color-flexoki-base-500);
-  --faint: var(--color-flexoki-base-600);
+  --muted: var(--color-flexoki-base-400);
+  --faint: var(--color-flexoki-base-500);
   --rule: var(--color-flexoki-base-900);
   --rule-2: var(--color-flexoki-base-800);
   --plate: var(--color-flexoki-base-950);
@@ -72,8 +78,8 @@
   --paper: var(--color-flexoki-paper);
   --ink: var(--color-flexoki-black);
   --ink-2: var(--color-flexoki-base-900);
-  --muted: var(--color-flexoki-base-600);
-  --faint: var(--color-flexoki-base-500);
+  --muted: var(--color-flexoki-base-700);
+  --faint: var(--color-flexoki-base-600);
   --rule: var(--color-flexoki-base-100);
   --rule-2: var(--color-flexoki-base-200);
   --plate: var(--color-flexoki-base-50);
@@ -260,13 +266,6 @@ body.site {
   padding-bottom: calc(var(--b) * 10);
 }
 
-.dateline {
-  display: flex;
-  gap: 1.5rem;
-  flex-wrap: wrap;
-  margin-bottom: calc(var(--b) * 5);
-}
-
 /* Name and lede on the left, portrait holding the right margin. The photo
    takes the same 15rem column the work-history dates use, so it lands on
    structure the rest of the page already sets up rather than floating. */
@@ -339,16 +338,10 @@ body.site {
   max-width: var(--measure);
 }
 
+/* Same reasoning as .section-head: the biography used to hang off a label in
+   the first column, so with the label gone it starts at the gutter too. */
 @media (min-width: 62rem) {
-  .hero-body {
-    grid-template-columns: var(--hang) minmax(0, 1fr) minmax(0, 1fr);
-    gap: 0 clamp(1.5rem, 3vw, 3.5rem);
-  }
-  .hero-body .lbl {
-    grid-column: 1;
-  }
   .hero-body .prose {
-    grid-column: 2 / span 2;
     max-width: var(--measure);
   }
 }
@@ -387,21 +380,17 @@ body.site {
   margin: 0;
 }
 
+/* Title left, note right. The --hang column is not used here: it existed to
+   carry the folio label, and with that gone an empty first column left the
+   title floating in an indent while the grid beneath it started at the
+   gutter. One left edge for the whole page reads better than two. */
 @media (min-width: 62rem) {
   .section-head {
-    grid-template-columns: var(--hang) minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     gap: 0 clamp(1.5rem, 3vw, 3.5rem);
     align-items: start;
   }
-  .section-head .folio {
-    grid-column: 1;
-    padding-top: 0.55em;
-  }
-  .section-title {
-    grid-column: 2;
-  }
   .section-note {
-    grid-column: 3;
     padding-top: 0.7em;
   }
 }
@@ -440,24 +429,79 @@ body.site {
   margin-top: 4px;
 }
 
-/* ── Index list (projects, work history) ────────────────────── */
+/* ── Projects ───────────────────────────────────────────────── */
+
+/* Projects are parallel efforts, not a chronology, so they take a two-column
+   field of blocks rather than the full-width ruled rows work history uses.
+   Same hairline vocabulary, different rhythm, so the two sections are not
+   read as one long list interrupted by the screens. */
+
+.works {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: clamp(1.5rem, 4vw, 4rem);
+  row-gap: calc(var(--b) * 5);
+}
+
+@media (min-width: 48rem) {
+  .works {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.work {
+  margin: 0;
+  border-top: 1px solid var(--rule);
+  padding-top: calc(var(--b) * 2);
+  min-width: 0;
+}
+
+.work h3 {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  font-size: clamp(1.25rem, 2.3vw, 1.6rem);
+  line-height: 1.15;
+  letter-spacing: -0.018em;
+  margin: 0;
+  text-wrap: balance;
+}
+
+.work .role {
+  margin: 6px 0 0;
+  color: var(--ink);
+  letter-spacing: 0.12em;
+}
+
+.work .desc {
+  margin: calc(var(--b) * 2) 0 0;
+  max-width: 46ch;
+  color: var(--ink-2);
+  font-size: 16px;
+  line-height: 26px;
+}
+
+/* ── Index list (work history) ──────────────────────────────── */
 
 .index {
   border-top: 1px solid var(--rule);
 }
 
+/* Single column below 62rem. Only the current role carries a marker, so a
+   dedicated marker column would indent every other row against nothing. */
 .entry {
   display: grid;
-  grid-template-columns: 2.5rem minmax(0, 1fr);
-  gap: 0 1rem;
+  grid-template-columns: minmax(0, 1fr);
   padding: calc(var(--b) * 3) 0;
   border-bottom: 1px solid var(--rule);
 }
 
 .entry .num {
   color: var(--faint);
-  padding-top: 0.42em;
-  margin: 0;
+  margin: 0 0 calc(var(--b) * 1.5);
+}
+
+.entry .num:empty {
+  display: none;
 }
 .entry .body {
   min-width: 0;
@@ -495,9 +539,15 @@ body.site {
     gap: 0 clamp(1.5rem, 3vw, 3.5rem);
   }
   .entry .num {
+    margin-bottom: 0;
     padding-top: 0.55em;
   }
+  /* Restored at desktop: the empty cell is what holds the three-column grid. */
+  .entry .num:empty {
+    display: block;
+  }
   .entry .side {
+    grid-column: 3;
     margin-top: 0;
     padding-top: 0.55em;
     text-align: right;
@@ -580,6 +630,7 @@ figure.plate {
 
 .plate .cap-line {
   display: flex;
+  align-items: baseline;
   justify-content: space-between;
   gap: 1rem;
 }
@@ -588,18 +639,21 @@ figure.plate {
   font-size: 14px;
   line-height: 21px;
   letter-spacing: -0.004em;
-  margin-top: 6px;
   color: var(--ink);
+  min-width: 0;
+  transition: color 0.15s ease;
+}
+.plate .cap-year {
+  flex: 0 0 auto;
 }
 .plate .cap-tags {
   margin-top: 2px;
-  font-size: 10px;
   letter-spacing: 0.12em;
   color: var(--faint);
 }
 
-.plate-btn:hover + figcaption .fignum,
-.plate-btn:focus-visible + figcaption .fignum {
+.plate-btn:hover + figcaption .cap-title,
+.plate-btn:focus-visible + figcaption .cap-title {
   color: var(--accent);
 }
 
@@ -659,7 +713,7 @@ figure.plate {
   border-bottom: 1px solid var(--rule);
   padding: calc(var(--b) * 3) 0;
 }
-/* Outside .prose, so Tailwind's heading scale doesn't apply — size it
+/* Outside .prose, so Tailwind's heading scale doesn't apply - size it
    explicitly or it inherits 17px and drops below the display threshold. */
 .site .post-list h2 {
   font-family: var(--font-serif);
@@ -709,7 +763,7 @@ figure.plate {
 }
 @media (min-width: 48rem) {
   .foot-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: calc(var(--b) * 3);
   }
 }
@@ -908,7 +962,7 @@ body.lb-open {
   font-family: var(--font-sans);
 }
 
-/* h1–h3 clear the display threshold; h4 and below land at body size,
+/* h1-h3 clear the display threshold; h4 and below land at body size,
    where the serif would be unreadable, so they take sans at weight. */
 .site .prose h1,
 .site .prose h2,

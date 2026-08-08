@@ -1,10 +1,9 @@
 {%- comment -%}
-  Plates are rendered server-side so the grid survives without JavaScript.
+  Screens are rendered server-side so the grid survives without JavaScript.
   lightbox.js reads the data-* attributes and takes over the click handling.
 {%- endcomment -%}
 <div class="plates" id="plates">
   {%- for item in site.data.work -%}
-    {%- assign n = forloop.index | prepend: '0' | slice: -2, 2 -%}
     <figure class="plate">
       <button
         class="plate-btn"
@@ -14,7 +13,7 @@
         data-title="{{ item.title | escape }}"
         data-year="{{ item.year }}"
         data-tags="{{ item.tags | escape }}"
-        aria-label="View plate {{ n }}, {{ item.title | escape }}"
+        aria-label="View {{ item.title | escape }} full size"
       >
         {%- comment -%}
           No width/height here: thumbnails keep their own aspect ratio and the
@@ -29,10 +28,9 @@
       </button>
       <figcaption>
         <div class="cap-line">
-          <span class="fignum meta">Fig. {{ n }}</span>
-          <span class="meta">{{ item.year }}</span>
+          <span class="cap-title">{{ item.title }}</span>
+          <span class="cap-year meta">{{ item.year }}</span>
         </div>
-        <div class="cap-title">{{ item.title }}</div>
         <div class="cap-tags meta">{{ item.tags }}</div>
       </figcaption>
     </figure>

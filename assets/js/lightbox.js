@@ -16,10 +16,6 @@
     }
   })
 
-  function pad(n) {
-    return (n < 10 ? "0" : "") + n
-  }
-
   var lb = document.createElement("div")
   lb.className = "lb"
   lb.setAttribute("role", "dialog")
@@ -28,7 +24,7 @@
   lb.innerHTML =
     '<div class="lb-bar">' +
     '<span class="meta" id="lbCount"></span>' +
-    '<button class="lb-x" type="button" id="lbClose">Close ✕</button>' +
+    '<button class="lb-x" type="button" id="lbClose">Close</button>' +
     "</div>" +
     '<div class="lb-stage" id="lbStage"></div>' +
     '<div class="lb-foot">' +
@@ -63,8 +59,10 @@
     img.alt = it.title
     stage.appendChild(img)
     elTitle.textContent = it.title
-    elMeta.textContent = [it.tags, it.year].filter(Boolean).join(" — ")
-    elCount.textContent = "Fig. " + pad(cur + 1) + " / " + pad(items.length)
+    elMeta.textContent = [it.tags, it.year].filter(Boolean).join(", ")
+    // Position, not decoration: inside the viewer the rest of the set is not
+    // visible, so this is the only cue for where you are in it.
+    elCount.textContent = cur + 1 + " of " + items.length
   }
 
   function open(i, trigger) {

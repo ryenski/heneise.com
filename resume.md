@@ -7,7 +7,7 @@ contact: Tyler, Texas, USA • 512-705-8752 • heneise@pm.me
 
 # Summary
 
-I build products that work for real humans. Over 20 years, I've shipped donation platforms processing millions in charitable giving, scaled fintech products handling Bitcoin transactions, and led teams through the entire product lifecycle—from zero to production to profitability. Recently promoted to VP of Engineering, I'm deliberately choosing the individual-contributor track: my highest-leverage work is deep technical leadership—setting architecture and still shipping the code. I'm equally comfortable writing code, designing products, and talking strategy with executives. Best suited for Principal/Staff-level engineering roles where you need someone who codes well _and_ thinks like a product owner.
+I build products that work for real humans. Over 20 years, I've shipped donation platforms processing millions in charitable giving, scaled fintech products handling Bitcoin transactions, and led teams through the entire product lifecycle: from zero to production to profitability. Recently promoted to VP of Engineering, I'm deliberately choosing the individual-contributor track, because my highest-leverage work is deep technical leadership, setting architecture and still shipping the code. I'm equally comfortable writing code, designing products, and talking strategy with executives. Best suited for Principal/Staff-level engineering roles where you need someone who codes well _and_ thinks like a product owner.
 
 ## Core Competencies
 
@@ -25,7 +25,7 @@ I build products that work for real humans. Over 20 years, I've shipped donation
 
 ## Vice President of Engineering at Gierd, Inc.
 
-**July 2026 – Present**
+**July 2026 - Present**
 
 Gierd is an e-commerce technology startup serving marketplace sellers that process an estimated $1 billion in Gross Merchandise Value (GMV), providing unified marketplace orchestration, syndication, and competitive pricing intelligence that helps brands scale direct-to-consumer and refurbishment operations across Amazon, eBay, Walmart, Back Market, and other marketplaces. I was promoted from Principal Architect Engineer to lead engineering.
 
@@ -41,7 +41,7 @@ Gierd is an e-commerce technology startup serving marketplace sellers that proce
 
 ## Principal Architect Engineer at Gierd, Inc.
 
-**December 2024 – July 2026**
+**December 2024 - July 2026**
 
 Guided architecture decisions across product and led engineering teams to ship new features while maintaining app stability and data integrity at scale.
 
@@ -49,20 +49,20 @@ Guided architecture decisions across product and led engineering teams to ship n
 
 - **Led the mission-critical Rails platform** that customers and the customer success team use to manage product pricing and reporting; one of four designated code owners, its top contributor, and the primary reviewer on critical changes
 - **Led the design of a resilient, scalable data extraction system** that our team built to ingest data from marketplace APIs at scale, feed the data warehouse, and power pricing analytics and automated repricing workflows
-- **Traced defects to root cause across interdependent systems**, working the dependency graph rather than the stack trace alone—caught a locale rule that quietly governed extraction API routing for an entire class of customers in a separate system, and refactored the provisioning so the change could ship safely
+- **Traced defects to root cause across interdependent systems**, working the dependency graph rather than the stack trace alone. Caught a locale rule that quietly governed extraction API routing for an entire class of customers in a separate system, then refactored the provisioning so the change could ship safely
 - **Helped our team build AI code review automation that cut code review time by more than 50%**, unblocking engineers and helping them ship faster
 - **Architected data pipelines** using dbt and BigQuery to transform complex repricing and syndication workflows into reliable, maintainable data systems
 - **Delivered under ambiguous requirements and complex architectural constraints**, using AI to develop new features and perform deep, cross-cutting systematic debugging across multiple interdependent systems
 - **Developed an internal skills library and "company brain"** that pulled together resources and knowledge from across the technology stack to provide deep research and quick answers to complex questions
 - **Worked closely with the VP of Engineering, CTO, and COO** to align engineering outcomes with business objectives
 
-**What matters:** Repricing and syndication directly impact revenue. My role is to make those systems fast, reliable, and understandable to both engineers and stakeholders—leveraging AI, data infrastructure, and architectural clarity to get there.
+**What matters:** Repricing and syndication directly impact revenue. My role is to make those systems fast, reliable, and understandable to both engineers and stakeholders, leveraging AI, data infrastructure, and architectural clarity to get there.
 
 **Technologies**: Ruby on Rails, dbt, BigQuery, Docker, GitHub Actions, Claude, OpenAI, autonomous agent orchestration
 
 ## Founder at MemberDrive LLC
 
-**September 2022 – Present** *(part-time)*
+**September 2022 - Present** *(part-time)*
 
 MemberDrive is an online fundraising and donor management platform for nonprofit organizations. Designed for nonprofits to convert one-time donors into recurring members with full integration to Stripe and accounting systems, MemberDrive provides big-donor functionality at a price tag small charities can afford.
 
@@ -75,7 +75,7 @@ MemberDrive is an online fundraising and donor management platform for nonprofit
 
 ## Senior Software Engineer at SRS Acquiom
 
-**January 2023 – Nov 2024**
+**January 2023 - Nov 2024**
 
 SRS Acquiom provides a Virtual Data Room (VDR) platform serving the M&A industry. My responsibilities included developing new features, peer-reviewing code submitted by other engineers, and enforcing project standards and best practices.
 
@@ -89,7 +89,7 @@ SRS Acquiom provides a Virtual Data Room (VDR) platform serving the M&A industry
 
 ## Senior Full Stack Engineer at Swan Bitcoin
 
-**January 2022 – December 2022**
+**January 2022 - December 2022**
 
 Swan Bitcoin is a Bitcoin exchange serving individual and institutional investors. At Swan I worked directly with the product team to release features that users were waiting for.
 
@@ -103,7 +103,7 @@ Swan Bitcoin is a Bitcoin exchange serving individual and institutional investor
 
 ## Lead Developer at Dime Technology
 
-**May 2019 – January 2022**
+**May 2019 - January 2022**
 
 Dime Giving is the flagship product for Dime Technology, serving churches and nonprofits with financial accounting and online donations. I wrote the first line of code, built the product through launch and scale, and eventually led the small engineering team.
 
@@ -112,13 +112,13 @@ Dime Giving is the flagship product for Dime Technology, serving churches and no
 - **Built the initial product** that became the foundation of Dime Giving.
 - **Implemented Shape Up management methodology**, cutting the traditional software development cycle significantly and allowing us to ship new features faster
 - **Built multiple payment integrations** to allow Dime Giving to natively process donor giving while powering Dime's revenue generation
-- **Worked directly with CEO** on product strategy—my input shaped which features were prioritized and how the product evolved
+- **Worked directly with CEO** on product strategy. My input shaped which features were prioritized and how the product evolved
 
 **Technologies**: Ruby on Rails, PostgreSQL, JavaScript (StimulusJS), CSS (TailwindCSS), Payment integration, QuickBooks integration
 
 ## Founder and Lead Developer at Booster Stage, Inc.
 
-**November 2004 – April 2019**
+**November 2004 - April 2019**
 
 Booster Stage was a web development agency serving startup clients who needed custom software. Scaled from a solo operation to a team of employees and contractors.
 
@@ -133,7 +133,7 @@ Booster Stage was a web development agency serving startup clients who needed cu
 
 ## Founder at Donor Tools
 
-**August 2007 – December 2014**
+**August 2007 - December 2014**
 
 Donor Tools is an online donation and CRM platform for nonprofit organizations. At the time it was one of the first modern web-based platforms for nonprofit fundraising.
 
@@ -141,14 +141,14 @@ Donor Tools is an online donation and CRM platform for nonprofit organizations. 
 
 - **Created one of the first online donor management and online giving programs**: Built the product from the ground up that demonstrated nonprofits would pay for modern online donation and donor management tools
 - **Grew the customer base to over 600 customers** who previously had no affordable alternatives to expensive legacy systems
-- **Implemented advanced features** including dynamic Smart Tags, PayPal donations, and QuickBooks integration—capabilities that were novel for the category at the time
+- **Implemented advanced features** including dynamic Smart Tags, PayPal donations, and QuickBooks integration, capabilities that were novel for the category at the time
 - **Successfully exited through acquisition**: Transitioned the product and customer base to partners, validating both the product-market fit and the business viability
 
 **Technologies**: Ruby on Rails, PayPal API, QuickBooks integration
 
 ## Web Development Team Lead at Biola University
 
-**January 2004 – December 2004**
+**January 2004 - December 2004**
 
 The Web Development Team at Biola University was charged with maintaining the University's website and content, as well as department-specific sub-sites. I led the web team managing website infrastructure and custom applications for university departments. Worked directly with Marketing Communications.
 
@@ -162,23 +162,23 @@ The Web Development Team at Biola University was charged with maintaining the Un
 
 # Projects
 
-- **[Diurnum](https://github.com/Diurnum-Dev/Diurnum)** — Open-source plain-text accounting app (Rust, Tauri), architected and shipped entirely through autonomous AI agents. Features AI-assisted transaction categorization with confidence-gated human review and output validation, so AI drafts every entry but nothing reaches the ledger without human approval.
+- **[Diurnum](https://github.com/Diurnum-Dev/Diurnum)**: Open-source plain-text accounting app (Rust, Tauri), architected and shipped entirely through autonomous AI agents. Features AI-assisted transaction categorization with confidence-gated human review and output validation, so AI drafts every entry but nothing reaches the ledger without human approval.
 
 ---
 
 # Education
 
-- **Master of Arts in Organizational Leadership** — Biola University, 2007
-- **Bachelor of General Studies, Computer Information Management** — Jacksonville University, 2003
-- **Associate of Arts** — St. Johns River Community College, 2000
+- **Master of Arts in Organizational Leadership**, Biola University, 2007
+- **Bachelor of General Studies, Computer Information Management**, Jacksonville University, 2003
+- **Associate of Arts**, St. Johns River Community College, 2000
 
 ---
 
 # Board Service & Volunteer Experience
 
-- **Board Member & Treasurer** (officer), Chesterton Academy of Tyler, 2025 – present
+- **Board Member & Treasurer** (officer), Chesterton Academy of Tyler, 2025 - present
 - Volunteer, Haiti180 orphanage and medical clinic, 2019 & 2021
-- Vice President, Elgin Citizens' Police Academy Alumni Association, 2017 – 2019
+- Vice President, Elgin Citizens' Police Academy Alumni Association, 2017 - 2019
 - Website Designer, Annunciation Maternity Home, 2016
 
 ---
@@ -187,6 +187,6 @@ The Web Development Team at Biola University was charged with maintaining the Un
 
 - **Over 20 years of continuous full-stack development** across startups, agencies, and established companies
 - **Shipped products serving hundreds of organizations** (Dime Giving, Donor Tools) that process millions in annual transactions
-- **Built teams and established engineering culture** at multiple organizations — hiring, processes, and standards that outlasted my tenure
-- **Proven ability to bridge business and engineering** — equally comfortable shipping code or discussing product strategy with executives
+- **Built teams and established engineering culture** at multiple organizations: hiring, processes, and standards that outlasted my tenure
+- **Proven ability to bridge business and engineering**: equally comfortable shipping code or discussing product strategy with executives
 - **Mastered Shape Up methodology** and successfully applied it to reduce development cycle time and improve time-to-market
