@@ -6,3 +6,4 @@ vendor
 .DS_Store
 .contextstore/settings.local.yml
 /node_modules
+/docs
