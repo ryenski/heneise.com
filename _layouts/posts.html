@@ -3,54 +3,45 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    {% include theme-init.html %}
     <title>{{ site.title }} - {{ page.title }}</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <meta
+      name="description"
+      content="{{ page.description | default: page.summary | default: site.description }}"
+    >
+    {% include head-common.html %}
   </head>
 
   <body class="site">
-    <div class="mx-4 max-w-3xl md:mx-auto py-12 md:py-24">
-      {% include navigation.html %}
+    {% include masthead.html %}
+    <main class="wrap page">
+      <header class="page-head">
+        <h1 class="page-title">{{ page.title }}</h1>
+        {% if page.description %}
+          <p class="page-sub">{{ page.description }}</p>
+        {% endif %}
+      </header>
 
-      <!-- Posts Index Content -->
-      <div class="prose prose-lg max-w-none">
-        <header class="mb-8">
-          <h1 class="text-4xl md:text-5xl my-1 font-light">{{ page.title }}</h1>
-          {% if page.description %}
-            <p class="page-subtitle text-xl font-extralight my-1">
-              {{ page.description }}
-            </p>
-          {% endif %}
-        </header>
+      {% if content != '' %}
+        <div class="prose">{{ content }}</div>
+      {% endif %}
 
-        <div class="my-16 font-light">
-          {{ content }}
-
-          <!-- Posts List -->
-          <ul class="post-list list-none pl-0 space-y-6">
-            {% for post in site.posts %}
-              <li class="pb-4">
-                <h2 class="text-2xl font-light my-2">
-                  <a href="{{ post.url }}">{{ post.title }}</a>
-                </h2>
-                {% if post.date %}
-                  <p class="post-meta text-sm font-light my-1">
-                    {{ post.date | date: '%B %d, %Y' }}
-                  </p>
-                {% endif %}
-                {% if post.excerpt %}
-                  <p class="post-excerpt my-2 font-light">
-                    {{ post.excerpt | strip_html | truncatewords: 30 }}
-                  </p>
-                {% endif %}
-              </li>
-            {% endfor %}
-          </ul>
-        </div>
-      </div>
-    </div>
+      <ul class="post-list">
+        {% for post in site.posts %}
+          <li>
+            <h2>
+              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </h2>
+            {% if post.date %}
+              <p class="post-meta meta">{{ post.date | date: '%B %d, %Y' }}</p>
+            {% endif %}
+            {% if post.excerpt %}
+              <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </main>
+    {% include site-footer.html %}
     {% include scripts.html %}
   </body>
 </html>

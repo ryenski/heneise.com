@@ -3,30 +3,31 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    {% include theme-init.html %}
-    <title>{{ site.title }} - {{ page.description }}</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <title>{{ site.title }} - {{ page.description | default: page.title }}</title>
+    <meta
+      name="description"
+      content="{{ page.summary | default: page.description | default: site.description }}"
+    >
+    {% include head-common.html %}
   </head>
 
   <body class="site">
-    <div class="mx-4 max-w-3xl md:mx-auto py-12 md:py-24">
-      {% include navigation.html %}
-
-      <div class="prose prose-lg max-w-none">
-        <header class="">
-          <h1 class="text-5xl my-1">
-            <a href="/" class="font-light">{{ page.title }}</a>
-          </h1>
-          <h2 class="text-3xl font-extralight my-1">{{ page.description }}</h2>
-          <p class="text-normal font-light my-1">{{ page.contact }}</p>
-        </header>
-        <div class="my-16 font-light">
-          {{ content }}
-        </div>
+    {% include masthead.html %}
+    <main class="wrap page">
+      <header class="page-head">
+        <h1 class="page-title">{{ page.title }}</h1>
+        {% if page.description %}
+          <p class="page-sub">{{ page.description }}</p>
+        {% endif %}
+        {% if page.contact %}
+          <p class="page-contact meta">{{ page.contact }}</p>
+        {% endif %}
+      </header>
+      <div class="prose">
+        {{ content }}
       </div>
-    </div>
+    </main>
+    {% include site-footer.html %}
     {% include scripts.html %}
   </body>
 </html>

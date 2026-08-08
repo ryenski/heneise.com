@@ -1,0 +1,38 @@
+{%- comment -%}
+  Screens are rendered server-side so the grid survives without JavaScript.
+  lightbox.js reads the data-* attributes and takes over the click handling.
+{%- endcomment -%}
+<div class="plates" id="plates">
+  {%- for item in site.data.work -%}
+    <figure class="plate">
+      <button
+        class="plate-btn"
+        type="button"
+        data-i="{{ forloop.index0 }}"
+        data-full="{{ "/assets/images/work/" | append: item.slug | append: ".webp" | relative_url }}"
+        data-title="{{ item.title | escape }}"
+        data-year="{{ item.year }}"
+        data-tags="{{ item.tags | escape }}"
+        aria-label="View {{ item.title | escape }} full size"
+      >
+        {%- comment -%}
+          No width/height here: thumbnails keep their own aspect ratio and the
+          button's 16:10 box reserves the space, so there is nothing to shift.
+        {%- endcomment -%}
+        <img
+          src="{{ "/assets/images/work/" | append: item.slug | append: "-sm.webp" | relative_url }}"
+          alt="{{ item.title | escape }}"
+          loading="lazy"
+          decoding="async"
+        >
+      </button>
+      <figcaption>
+        <div class="cap-line">
+          <span class="cap-title">{{ item.title }}</span>
+          <span class="cap-year meta">{{ item.year }}</span>
+        </div>
+        <div class="cap-tags meta">{{ item.tags }}</div>
+      </figcaption>
+    </figure>
+  {%- endfor -%}
+</div>

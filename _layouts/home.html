@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ site.title }} - {{ page.description }}</title>
+    <meta name="description" content="{{ page.summary | default: page.description }}">
+    {% include head-common.html %}
+  </head>
+
+  <body class="site">
+    {% include masthead.html %}
+    <main>
+      {{ content }}
+    </main>
+    {% include site-footer.html %}
+    {% include scripts.html %}
+  </body>
+</html>

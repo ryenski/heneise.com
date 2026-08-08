@@ -24,7 +24,7 @@ This is a [Now](http://nownownow.com/about) page. Thanks to Derek Sivers (and al
 
 - The History of Christendom (Volume II, Building of Christendom) by Warren H. Carroll
 - Gulliver's Travels
-- The Intelligent Investor — Benjamin Graham
-- The Fiat Standard — Saifedean Ammous
-- The Creature from Jekyll Island — G. Edward Griffin
-- Dracula — Bram Stoker
+- The Intelligent Investor, by Benjamin Graham
+- The Fiat Standard, by Saifedean Ammous
+- The Creature from Jekyll Island, by G. Edward Griffin
+- Dracula, by Bram Stoker

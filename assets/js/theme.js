@@ -1,51 +1,45 @@
-(function () {
-  function isCurrentlyDark() {
-    var root = document.documentElement;
-    var dt = root.getAttribute("data-theme");
-    if (dt === "dark") return true;
-    if (dt === "light") return false;
-    return window.matchMedia("(prefers-color-scheme: dark)").matches;
+;(function () {
+  "use strict"
+
+  var root = document.documentElement
+  var btn = document.getElementById("themeToggle")
+  var lbl = document.getElementById("themeLabel")
+  if (!btn || !lbl) return
+
+  function isDark() {
+    var t = root.getAttribute("data-theme")
+    if (t) return t === "dark"
+    return window.matchMedia("(prefers-color-scheme: dark)").matches
   }
 
-  function syncToggle() {
-    var btn = document.getElementById("theme-toggle");
-    if (!btn) return;
-    var dark = isCurrentlyDark();
-    var moon = btn.querySelector(".theme-toggle-moon");
-    var sun = btn.querySelector(".theme-toggle-sun");
-    if (moon) moon.classList.toggle("hidden", dark);
-    if (sun) sun.classList.toggle("hidden", !dark);
-    btn.setAttribute(
-      "aria-label",
-      dark ? "Switch to light mode" : "Switch to dark mode"
-    );
-    btn.setAttribute("aria-pressed", dark ? "true" : "false");
+  // The label names the theme you'd switch TO, not the one you're in.
+  function syncLabel() {
+    var dark = isDark()
+    lbl.textContent = dark ? "Light" : "Dark"
+    btn.setAttribute("aria-pressed", dark ? "true" : "false")
+    btn.setAttribute("aria-label", dark ? "Switch to light theme" : "Switch to dark theme")
   }
 
-  function applyExplicitTheme(goDark) {
-    var root = document.documentElement;
-    root.setAttribute("data-theme", goDark ? "dark" : "light");
+  btn.addEventListener("click", function () {
+    var next = isDark() ? "light" : "dark"
+    root.setAttribute("data-theme", next)
     try {
-      localStorage.setItem("theme", goDark ? "dark" : "light");
+      localStorage.setItem("theme", next)
     } catch (e) {}
-    syncToggle();
-  }
+    syncLabel()
+  })
 
-  var btn = document.getElementById("theme-toggle");
-  if (btn) {
-    btn.addEventListener("click", function () {
-      applyExplicitTheme(!isCurrentlyDark());
-    });
-  }
+  // Only follow the system when the visitor hasn't made an explicit choice.
+  // Guarded: Safari below 14 has no addEventListener here, and an exception
+  // thrown at this point would silently kill the syncLabel() call below.
+  try {
+    var mq = window.matchMedia("(prefers-color-scheme: dark)")
+    var onSystemChange = function () {
+      if (!root.getAttribute("data-theme")) syncLabel()
+    }
+    if (mq.addEventListener) mq.addEventListener("change", onSystemChange)
+    else if (mq.addListener) mq.addListener(onSystemChange)
+  } catch (e) {}
 
-  syncToggle();
-
-  window
-    .matchMedia("(prefers-color-scheme: dark)")
-    .addEventListener("change", function () {
-      try {
-        if (localStorage.getItem("theme")) return;
-      } catch (e) {}
-      syncToggle();
-    });
-})();
+  syncLabel()
+})()

@@ -1,6 +1,9 @@
 url: "https://heneise.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Ryan Heneise" # the name of your site, e.g. ACME Corp.
+# Last-resort <meta name="description"> for pages that set neither
+# `description` nor `summary` in their front matter.
+description: "Ryan Heneise, principal software engineer. Twenty years of Ruby on Rails, and AI systems that do real work for small businesses."
 
 plugins:
   - jekyll-postcss
@@ -8,3 +11,18 @@ plugins:
 
 postcss:
   cache: false
+
+# Full-resolution source screenshots and the original headshot are kept in the
+# repo but never published - the site only serves the derivatives in
+# assets/images/work and assets/images/portrait*.webp.
+exclude:
+  - assets/images/portfolio/
+  - assets/images/profile 2024 improved.png
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - yarn.lock
+  - postcss.config.js
+  - README.md
+  - CLAUDE.md

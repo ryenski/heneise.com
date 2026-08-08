@@ -1,0 +1,23 @@
+{%- comment -%}
+  Shared head plumbing. Fonts are self-hosted (see assets/css/main.css), so
+  there is nothing to preconnect to: the only two faces the first screen needs
+  are preloaded straight from this origin. Fonts are always fetched in CORS
+  mode, so the crossorigin attribute is required even same-origin -- without it
+  the preload is discarded and the file is requested a second time.
+{%- endcomment -%}
+{% include theme-init.html %}
+<link
+  rel="preload"
+  as="font"
+  type="font/woff2"
+  href="{{ "/assets/fonts/eb-garamond-normal-latin.woff2" | relative_url }}"
+  crossorigin
+>
+<link
+  rel="preload"
+  as="font"
+  type="font/woff2"
+  href="{{ "/assets/fonts/geist-normal-latin.woff2" | relative_url }}"
+  crossorigin
+>
+<link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
