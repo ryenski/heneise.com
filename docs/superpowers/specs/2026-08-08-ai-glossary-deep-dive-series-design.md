@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Turn the existing AI glossary into a six-article teaching series published three times per week for two weeks. The glossary remains the overview and index; each new article becomes a spoke that explains a connected group of terms in enough depth to use them correctly.
+Turn the existing AI glossary into a seven-article teaching series. Publish the six vocabulary deep dives three times per week for two weeks, followed by a practical business capstone on the next Monday. The glossary remains the overview and index; each new article becomes a spoke that explains a connected group of terms in enough depth to use them correctly.
 
 The series should help a technically curious reader move from recognizing vocabulary to understanding how the parts fit together. It is not a computer science course, vendor catalog, or collection of disconnected definitions.
 
@@ -148,7 +148,32 @@ Length follows the subject. Basic pieces can stop once the mental model holds; a
 
 **Practical tips:** Choose against a real workload; verify license and data terms for the exact release; measure total system cost rather than API price alone; test the model-harness pair rather than relying on a general leaderboard.
 
-## Two-week production and publication calendar
+## Article 7: Going beyond the chat: replacing yourself in repeatable business workflows
+
+**Applied coverage:** Use Claude Cowork, ChatGPT Codex, Hermes, and OpenClaw as concrete examples of moving from chat assistance to agents that perform recurring work. Reuse the earlier concepts of agents, skills, tools, harnesses, context, memory, autonomy, evals, permissions, and sandboxes in one practical setting.
+
+**Search/share role:** Primarily shareable, with searchable implementation guidance for business automation and personal AI workflows.
+
+**Working length:** 3,500–5,000 words.
+
+| Level | Teaching outline |
+|---|---|
+| Beginner | Identify repeatable work that can move beyond chat; distinguish assistance, automation, and agent delegation; define a useful outcome before choosing a product. |
+| Intermediate | Break a workflow into inputs, decisions, actions, approvals, and outputs; show how tools, skills, context, memory, and a harness reproduce the repeatable parts of a person’s process. |
+| Advanced | Cover secrets, permissions, prompt injection, audit trails, failure recovery, cost controls, approval boundaries, and the evals needed before an agent works unattended. |
+| Go deeper | Map one real workflow, build a reversible pilot in two harnesses, compare results against a human baseline, add scheduling and notifications, and measure where judgment still needs a person. |
+
+**Prose path:** Open with the provocative promise of “replacing yourself,” then define it carefully: capture the repeatable parts of your work so an agent can perform them while you retain accountability and the decisions that require judgment. Move from a chat-based assistant to a documented workflow, then to tool access, saved context, scheduled execution, review gates, and limited autonomy.
+
+Use Claude Cowork, ChatGPT Codex, Hermes, and OpenClaw as different routes into the same question rather than forcing a winner. Verify each product’s current name, capabilities, supported integrations, and permission model from its primary documentation during drafting. Compare what each tool makes easy, what it exposes for inspection, where it stores state, and what happens after a failed step.
+
+Ground the article in several business-shaped examples: recurring research and reporting, inbox or request triage, software maintenance, meeting preparation, data entry across systems, and routine publishing work. At least one example should be mapped from start to finish, including the manual process, agent inputs, tools, approval gates, output, failure path, and measurement.
+
+**Practical tips:** Start with frequent, tedious, low-consequence work; write the process down before automating it; grant the smallest useful permissions; run in observation or draft mode first; keep logs and a human-readable escape hatch; measure saved attention as well as elapsed time.
+
+**Editorial boundary:** Do not present unattended agents as employees, promise that every workflow can be automated, or imply that delegation transfers responsibility. “Replace yourself” is the hook; the lesson is to operationalize repeatable work without automating judgment blindly.
+
+## Series production and publication calendar
 
 All dates use America/Chicago time. Publish at 9:00 AM unless a later editorial decision changes the site’s standard release time.
 
@@ -160,6 +185,7 @@ All dates use America/Chicago time. Publish at 9:00 AM unless a later editorial 
 | 4. Anatomy of an AI agent | Aug 14–16 | Aug 16 | Aug 16 | Mon, Aug 17 |
 | 5. From one agent to autonomous systems | Aug 17–18 | Aug 18 | Aug 18 | Wed, Aug 19 |
 | 6. Open, closed, local, and hosted | Aug 19–20 | Aug 20 | Aug 20 | Fri, Aug 21 |
+| 7. Going beyond the chat | Aug 21–23 | Aug 23 | Aug 23 | Mon, Aug 24 |
 
 The schedule is intentionally demanding. If research exposes a factual dispute or an article needs a real experiment, accuracy wins and that article moves to the next open slot rather than publishing a rushed explanation.
 
@@ -176,7 +202,7 @@ The schedule is intentionally demanding. If research exposes a factual dispute o
 
 ## Internal linking
 
-The glossary links to all six deep dives as they publish. Every deep dive links back to the glossary near the introduction and points to the next logical article at the end. Later articles may link backward where a term depends on an earlier explanation, especially context, inference, tools, and harnesses.
+The glossary links to all seven deep dives as they publish. Every deep dive links back to the glossary near the introduction and points to the next logical article at the end. Later articles may link backward where a term depends on an earlier explanation, especially context, inference, tools, and harnesses. The capstone links directly to Articles 2, 4, 5, and 6 where it applies their concepts.
 
 Avoid a generic “related posts” block if a sentence can explain why the reader should continue to a specific article.
 
@@ -184,8 +210,9 @@ Avoid a generic “related posts” block if a sentence can explain why the read
 
 - All 42 glossary headings appear in exactly one article brief.
 - Every article contains the four-level learning table.
+- The seventh article applies earlier terms to at least one complete, real-world workflow map.
 - Beginner explanations stand on their own without requiring later sections.
 - Practical tips give the reader an action, test, inspection method, or decision rule.
 - Advanced claims cite primary sources and avoid temporary leaderboard language.
 - The anti-AI-slop pass occurs after fact-checking and before final link and build verification.
-- Publication dates follow the Monday, Wednesday, Friday cadence for two weeks.
+- Publication dates follow the Monday, Wednesday, Friday cadence for two weeks, with the practical capstone published the following Monday.
