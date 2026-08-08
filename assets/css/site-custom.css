@@ -769,6 +769,18 @@ figure.plate {
 .site .post-list h2 a:hover {
   color: var(--accent);
 }
+.site .post-subtitle {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: clamp(1.05rem, 1.8vw, 1.25rem);
+  line-height: 1.25;
+  color: var(--ink-2);
+  margin: calc(var(--b) * 0.75) 0 0;
+}
+.site .post-list h2 + .post-meta,
+.site .post-subtitle + .post-meta {
+  margin-top: var(--b);
+}
 .site .post-meta,
 .site .post-excerpt {
   color: var(--muted);
