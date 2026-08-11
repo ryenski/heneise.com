@@ -8,7 +8,7 @@ summary: Ryan Heneise, principal software engineer. I help small businesses get 
 <section class="wrap hero">
   <div class="hero-top">
     <div class="hero-titles">
-      <h1 class="display">Ryan<span class="l2">Heneise<span class="period">.</span></span></h1>
+      <h1 class="display">Ryan<span class="l2">Heneise</span></h1>
       <p class="hero-lede">I help small businesses get real work out of AI. Twenty years of full-stack Rails underneath.</p>
     </div>
     <img
