@@ -237,3 +237,16 @@ And test the combination, not the model in isolation. The same model can look br
 **“The agent will learn over time.”** It may save memories, create skills, fine-tune a model, or merely retain chat history. Those are different mechanisms with different failure modes.
 
 You don't need to memorize all of this. Learn the category boundaries, ask what layer somebody means, and be suspicious whenever one impressive adjective has to carry the whole explanation. That will get you through most AI conversations just fine.
+
+{% assign deep_dives = site.posts | where: "series", "ai-glossary-deep-dives" | reverse %}
+{% if deep_dives.size > 0 %}
+## Deep dives
+
+This glossary is the map. The articles below take each group of terms apart and put it back together through practical examples:
+
+<ul>
+{% for deep_dive in deep_dives %}
+  <li><a href="{{ deep_dive.url }}">{{ deep_dive.title }}</a></li>
+{% endfor %}
+</ul>
+{% endif %}
