@@ -71,7 +71,9 @@ A skill is a reusable package of instructions that teaches an agent how to handl
 
 ### Agent
 
-An agent lets a model work through a task over multiple steps. It can choose what to do next, call a tool, inspect the result, revise its plan, and continue until it reaches an outcome or needs help. Surrounding software supplies the loop, tools, instructions, state, and stopping rules. Calling every chatbot an agent makes the word useless.
+An agent lets a model work through a task over multiple steps. It can choose what to do next, call a tool, inspect the result, revise its plan, and continue until it reaches an outcome or needs help. Surrounding software supplies the loop, tools, instructions, state, and stopping rules.
+
+The difference from a chatbot is who controls the sequence of work. In an ordinary chat, the person decides each next step: ask a question, read the response, provide more information, and request another action. An agent receives a goal and controls some of that sequence itself. Give a coding agent a bug report, for example, and it may search the repository, edit a file, run the tests, inspect a failure, and try another fix before returning to you. A chatbot may have tools, and an agent may use a chat window, so the interface isn't the distinction; the meaningful difference is how much authority the software has to choose and perform the next step without waiting for another prompt.
 
 ### Agentic
 
