@@ -30,7 +30,11 @@ The model processes this assembled context and produces output. That output migh
 
 So the visible exchange is only the surface:
 
-`product instructions + history + memory + files + tool results + your message → model → output`
+```
+product instructions + history + memory + files + tool results + your message 
+  → model 
+  → output
+```
 
 This explains why “I used the same prompt” is often not a controlled test. Two accounts can have different memories. A project chat has files that a blank chat lacks. Search results change. Products update hidden instructions and may route requests to different models.
 
