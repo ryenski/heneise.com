@@ -2,6 +2,7 @@
 layout: post
 title: What actually happens when you chat with AI
 date: 2026-08-12 09:00 -0500
+image: /assets/images/2026-08-12-what-actually-happens-when-you-chat-with-ai/cover.jpg
 series: ai-glossary-deep-dives
 excerpt: Follow one message through prompts, context, files, memory, tools, and output, then put that knowledge to work with better prompting.
 ---

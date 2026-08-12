@@ -3,6 +3,7 @@ layout: post
 title: Open, closed, local, and hosted
 subtitle: How to choose an AI stack
 date: 2026-08-21 09:00 -0500
+image: /assets/images/2026-08-21-open-closed-local-hosted-choosing-ai-stack/cover.jpg
 series: ai-glossary-deep-dives
 excerpt: Separate model, provider, product, and harness, then choose among closed APIs, open weights, and local inference for the work you actually have.
 ---

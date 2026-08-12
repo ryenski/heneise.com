@@ -2,6 +2,7 @@
 layout: post
 title: How AI models work without the math
 date: 2026-08-10 09:00 -0500
+image: /assets/images/2026-08-10-how-ai-models-work-without-the-math/cover.jpg
 series: ai-glossary-deep-dives
 excerpt: A practical explanation of AI, language models, tokens, training, and inference without pretending the model is the whole product.
 ---

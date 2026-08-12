@@ -3,6 +3,7 @@ layout: post
 title: Going beyond the chat
 subtitle: Practical AI agents for business workflows
 date: 2026-08-24 09:00 -0500
+image: /assets/images/2026-08-24-going-beyond-chat-replacing-yourself-in-business-workflows/cover.jpg
 series: ai-glossary-deep-dives
 excerpt: Replace the repeatable parts of your work with an agent workflow while keeping judgment, accountability, and consequential actions in human hands.
 ---

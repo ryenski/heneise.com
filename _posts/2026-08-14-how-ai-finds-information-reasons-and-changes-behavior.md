@@ -2,6 +2,7 @@
 layout: post
 title: How AI finds information, reasons, and changes behavior
 date: 2026-08-14 09:00 -0500
+image: /assets/images/2026-08-14-how-ai-finds-information-reasons-and-changes-behavior/cover.jpg
 series: ai-glossary-deep-dives
 excerpt: Retrieval, embeddings, fine-tuning, reasoning, and reinforcement learning solve different problems. Here is how to tell them apart.
 ---

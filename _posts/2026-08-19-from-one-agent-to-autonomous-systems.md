@@ -2,6 +2,7 @@
 layout: post
 title: From one agent to autonomous systems
 date: 2026-08-19 09:00 -0500
+image: /assets/images/2026-08-19-from-one-agent-to-autonomous-systems/cover.jpg
 series: ai-glossary-deep-dives
 excerpt: Computer use, sandboxes, subagents, evals, and permissions can extend an agent's reach. They also create new ways to fail.
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: Anatomy of an AI agent
 date: 2026-08-17 09:00 -0500
+image: /assets/images/2026-08-17-anatomy-of-an-ai-agent/cover.jpg
 series: ai-glossary-deep-dives
 excerpt: Models do not become agents by declaration. An agent needs a loop, tools, instructions, state, permissions, and software to hold it together.
 ---
