@@ -2,6 +2,7 @@
 layout: post
 title: Become an AI Wizard with User Awareness
 date: 2026-08-07 08:24 -0500
+published: false
 ---
 # How to become an AI wizard with user awareness
 
