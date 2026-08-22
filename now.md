@@ -8,7 +8,8 @@ This is a [Now](http://nownownow.com/about) page. Thanks to Derek Sivers (and al
 
 ### Business
 
-- Currently working as a principal software enginer for [Gierd, Inc.](http://gierd.com)
+- 🌟 Currently running an AI Concierge service at [Unwaste My Time](https://unwastemytime.com)
+- Formerly principal software enginer for [Gierd, Inc.](http://gierd.com)
 - [MemberDrive.org](https://MemberDrive.org) is a fundraising platform that helps charities build recurring revenue through memberships. Members ❤️ MemberDrive.
 - I sold Donor Tools, my previous business, to my partners in 2015.
 - Previously I worked as a senior software engineer for [SRS Acquiom](http://srsacquiom.com) and a full stack engineer for [Swan Bitcoin](http://swanbitcoin.com).
@@ -22,6 +23,7 @@ This is a [Now](http://nownownow.com/about) page. Thanks to Derek Sivers (and al
 
 ### Reading
 
+- The Mystical City of God (Abridgement) by Venerable Mary of Agreda
 - The History of Christendom (Volume II, Building of Christendom) by Warren H. Carroll
 - Gulliver's Travels
 - The Intelligent Investor, by Benjamin Graham

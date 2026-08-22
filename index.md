@@ -36,14 +36,15 @@ summary: Ryan Heneise, principal software engineer. I help small businesses get 
     <p class="section-note">Product work, platform work, and a fair amount of unglamorous accounting logic.</p>
   </div>
   <ul class="clients">
-    <li><span class="name">Gierd</span><span class="yrs meta">Since 2024</span></li>
+    <li><span class="name">Unwaste My Time</span><span class="yrs meta">Since 2026</span></li>
+    <li><span class="name">Gierd</span><span class="yrs meta">2024-26</span></li>
     <li><span class="name">Booster Stage</span><span class="yrs meta">2004-19</span></li>
     <li><span class="name">MemberDrive</span><span class="yrs meta">Since 2022</span></li>
     <li><span class="name">Dime Giving</span><span class="yrs meta">2019-22</span></li>
     <li><span class="name">Swan Bitcoin</span><span class="yrs meta">2022</span></li>
     <li><span class="name">CareGrove</span><span class="yrs meta">2020</span></li>
     <li><span class="name">Donor Tools</span><span class="yrs meta">2007-14</span></li>
-    <li><span class="name">Biola University</span><span class="yrs meta">2004</span></li>
+    <li><span class="name">Biola University</span><span class="yrs meta">2003-2004</span></li>
   </ul>
 </section>
 
@@ -54,6 +55,12 @@ summary: Ryan Heneise, principal software engineer. I help small businesses get 
   </div>
 
   <div class="works">
+    <article class="work">
+      <h3>Unwaste My Time</h3>
+      <p class="role meta">AI Concierge for Business Owners</p>
+      <p class="desc prose">Helping small business owners get more time back, make more money, and have happer customers using AI automation tools. <a href="https://unwastemytime.com">unwastemytime.com</a></p>
+    </article>
+
     <article class="work">
       <h3>Diurnum</h3>
       <p class="role meta">Founder · Rails</p>
