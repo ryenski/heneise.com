@@ -1,19 +1,20 @@
 ---
 layout: default
 title: "Ryan Heneise"
-description: VP of Engineering | Principal / Staff Engineer
+description: Principal / Staff Engineer
 contact: Tyler, Texas, USA • 512-705-8752 • ryan@heneise.com
 ---
 
 # Summary
 
-I build products that work for real humans. Over 20 years, I've shipped donation platforms processing millions in charitable giving, scaled fintech products handling Bitcoin transactions, and led teams through the entire product lifecycle: from zero to production to profitability. Recently promoted to VP of Engineering, I'm deliberately choosing the individual-contributor track, because my highest-leverage work is deep technical leadership, setting architecture and still shipping the code. I'm equally comfortable writing code, designing products, and talking strategy with executives. Best suited for Principal/Staff-level engineering roles where you need someone who codes well _and_ thinks like a product owner.
+I build products that work for real humans. Over 20 years, I've shipped donation platforms processing millions in charitable giving, scaled fintech products handling Bitcoin transactions, and led teams through the entire product lifecycle: from zero to production to profitability. My highest-leverage work is deep technical leadership, setting architecture and still shipping the code. Being promoted to VP of Engineering confirmed it: I'm deliberately on the individual-contributor track. I'm equally comfortable writing code, designing products, and talking strategy with executives. Best suited for Principal/Staff-level engineering roles where you need someone who codes well _and_ thinks like a product owner.
 
 ## Core Competencies
 
 - **Leadership & Product Strategy**: Team building, Shape Up, Agile, Scrum methodologies, product roadmap development
 - **AI & Automation**: LLM integration, autonomous agent orchestration (marketing, bug triage, customer support, feature development), LLM-powered code analysis and generation, AI-assisted development workflows
 - **Backend**: Ruby on Rails, Node.js, PostgreSQL, MySQL, Redis, Sidekiq
+- **Concurrency**: Multi-threaded background job processing (Sidekiq), async I/O in Node.js, thread safety with Mutex in Ruby
 - **Data Engineering & Infrastructure**: dbt pipelines and data transformation, BigQuery, Docker containerization, GitHub workflow automation, AWS
 - **Frontend**: React, TailwindCSS, StimulusJS, modern JavaScript
 - **Domain Expertise**: SaaS, nonprofit tech, fintech, Bitcoin/blockchain, double-entry accounting
@@ -23,42 +24,30 @@ I build products that work for real humans. Over 20 years, I've shipped donation
 
 # Professional Experience
 
-## Vice President of Engineering at Gierd, Inc.
+## Principal Architect Engineer → Vice President of Engineering at Gierd, Inc.
 
-**July 2026 - Present**
+**December 2024 - August 2026**
 
-Gierd is an e-commerce technology startup serving marketplace sellers that process an estimated $1 billion in Gross Merchandise Value (GMV), providing unified marketplace orchestration, syndication, and competitive pricing intelligence that helps brands scale direct-to-consumer and refurbishment operations across Amazon, eBay, Walmart, Back Market, and other marketplaces. I was promoted from Principal Architect Engineer to lead engineering.
-
-**Key Achievements:**
-
-- **Set architecture and delivery direction** for the repricing and syndication systems closest to revenue
-- **Drove adoption of AI-assisted engineering** across the team, from code review automation to agent-supported feature work and cross-system debugging
-- **Own reliability and data integrity** for the Rails platform that customers and the customer success team rely on daily
-- **Lead engineering across multiple teams** (front-end and UI, the Rails platform, data extraction, and site reliability), aligning technical scope, project priorities, and data integrity across dependent systems
-- **Partner with senior leadership** to align engineering outcomes with business objectives
-
-**Technologies**: Ruby on Rails, dbt, BigQuery, Docker, GitHub Actions, Claude, OpenAI, autonomous agent orchestration
-
-## Principal Architect Engineer at Gierd, Inc.
-
-**December 2024 - July 2026**
-
-Guided architecture decisions across product and led engineering teams to ship new features while maintaining app stability and data integrity at scale.
+Gierd is an e-commerce technology startup serving marketplace sellers that process an estimated $1 billion in Gross Merchandise Value (GMV), providing unified marketplace orchestration, syndication, and competitive pricing intelligence that helps brands scale direct-to-consumer and refurbishment operations across Amazon, eBay, Walmart, Back Market, and other marketplaces. Guided architecture decisions across product and led engineering teams to ship new features while maintaining app stability and data integrity at scale. Promoted to VP of Engineering in July 2026 to lead the engineering organization through a company-wide restructuring.
 
 **Key Achievements:**
 
 - **Led the mission-critical Rails platform** that customers and the customer success team use to manage product pricing and reporting; one of four designated code owners, its top contributor, and the primary reviewer on critical changes
 - **Led the design of a resilient, scalable data extraction system** that our team built to ingest data from marketplace APIs at scale, feed the data warehouse, and power pricing analytics and automated repricing workflows
-- **Traced defects to root cause across interdependent systems**, working the dependency graph rather than the stack trace alone. Caught a locale rule that quietly governed extraction API routing for an entire class of customers in a separate system, then refactored the provisioning so the change could ship safely
+- **Caught and defused a cross-system coupling risk** in which a small change to a single locale rule would have silently rerouted an entire class of customers to a different international API, governed by an extraction routine living in a separate system; refactored the extractor provisioning so the locale configuration could ship without disturbing extraction API routing, avoiding downtime and a data backfill
 - **Helped our team build AI code review automation that cut code review time by more than 50%**, unblocking engineers and helping them ship faster
 - **Architected data pipelines** using dbt and BigQuery to transform complex repricing and syndication workflows into reliable, maintainable data systems
+- **Led a team evaluating Redpanda** (Kafka-compatible event streaming) for the marketplace data extraction pipelines; the team delivered a proof of concept for streaming ingestion at scale
 - **Delivered under ambiguous requirements and complex architectural constraints**, using AI to develop new features and perform deep, cross-cutting systematic debugging across multiple interdependent systems
 - **Developed an internal skills library and "company brain"** that pulled together resources and knowledge from across the technology stack to provide deep research and quick answers to complex questions
 - **Worked closely with the VP of Engineering, CTO, and COO** to align engineering outcomes with business objectives
+- **Set architecture and delivery direction** for the repricing and syndication systems closest to revenue, and owned reliability and data integrity for the Rails platform that customers and the customer success team relied on daily
+- **Drove adoption of AI-assisted engineering** across the team, from code review automation to agent-supported feature work and cross-system debugging
+- **Led engineering across multiple teams** (front-end and UI, the Rails platform, data extraction, and site reliability), aligning technical scope, project priorities, and data integrity across dependent systems
 
-**What matters:** Repricing and syndication directly impact revenue. My role is to make those systems fast, reliable, and understandable to both engineers and stakeholders, leveraging AI, data infrastructure, and architectural clarity to get there.
+**What matters:** Repricing and syndication directly impact revenue. My job was to make those systems fast, reliable, and understandable to both engineers and stakeholders, leveraging AI, data infrastructure, and architectural clarity to get there.
 
-**Technologies**: Ruby on Rails, dbt, BigQuery, Docker, GitHub Actions, Claude, OpenAI, autonomous agent orchestration
+**Technologies**: Ruby on Rails, dbt, BigQuery, Redpanda (Kafka-compatible), Docker, GitHub Actions, Claude, OpenAI, autonomous agent orchestration
 
 ## Founder at MemberDrive LLC
 
@@ -70,6 +59,7 @@ MemberDrive is an online fundraising and donor management platform for nonprofit
 
 - **Designed and built the entire product**, using the framework of my own needs as a fundraiser and experience working with small nonprofits
 - **Engineered agentic workflows** to ship features and fix bugs faster by executing multiple feature developments in parallel
+- **Shipped a Bitcoin giving integration** alongside the Stripe Connect donation flow
 
 **Technologies**: Ruby on Rails, PostgreSQL, Stripe Connect, Bitcoin, DevOps, Claude, LLM-powered autonomous agents
 
@@ -83,9 +73,10 @@ SRS Acquiom provides a Virtual Data Room (VDR) platform serving the M&A industry
 
 - Implemented features and fixed critical bugs in a large legacy Rails codebase serving the M&A industry
 - Refactored subsystems to improve maintainability and reduce technical debt
+- Built a proof of concept for fine-grained authorization (OpenFGA) and began its integration into the platform
 - Contributed to code reviews and sprint planning under a demanding engineering-quality bar
 
-**Technologies**: Ruby on Rails, PostgreSQL
+**Technologies**: Ruby on Rails, PostgreSQL, OpenFGA
 
 ## Senior Full Stack Engineer at Swan Bitcoin
 
@@ -112,9 +103,10 @@ Dime Giving is the flagship product for Dime Technology, serving churches and no
 - **Built the initial product** that became the foundation of Dime Giving.
 - **Implemented Shape Up management methodology**, cutting the traditional software development cycle significantly and allowing us to ship new features faster
 - **Built multiple payment integrations** to allow Dime Giving to natively process donor giving while powering Dime's revenue generation
+- Worked as part of the team on KYC and secure card vaulting for donation processing
 - **Worked directly with CEO** on product strategy. My input shaped which features were prioritized and how the product evolved
 
-**Technologies**: Ruby on Rails, PostgreSQL, JavaScript (StimulusJS), CSS (TailwindCSS), Payment integration, QuickBooks integration
+**Technologies**: Ruby on Rails, PostgreSQL, JavaScript (StimulusJS), CSS (TailwindCSS), Payment integration, KYC, card vaulting, QuickBooks integration
 
 ## Founder and Lead Developer at Booster Stage, Inc.
 
