@@ -1,5 +1,6 @@
 ---
 layout: post
+canonical_url: https://unwastemytime.com/blog/anatomy-of-an-ai-agent
 title: Anatomy of an AI agent
 date: 2026-08-17 09:00 -0500
 image: /assets/images/2026-08-17-anatomy-of-an-ai-agent/cover.jpg

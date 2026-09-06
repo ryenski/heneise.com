@@ -1,5 +1,6 @@
 ---
 layout: post
+canonical_url: https://unwastemytime.com/blog/how-ai-models-work-without-the-math
 title: How AI models work without the math
 date: 2026-08-10 09:00 -0500
 image: /assets/images/2026-08-10-how-ai-models-work-without-the-math/cover.jpg

@@ -1,5 +1,6 @@
 ---
 layout: post
+canonical_url: https://unwastemytime.com/blog/how-ai-finds-information-reasons-and-changes-behavior
 title: How AI finds information, reasons, and changes behavior
 date: 2026-08-14 09:00 -0500
 image: /assets/images/2026-08-14-how-ai-finds-information-reasons-and-changes-behavior/cover.jpg

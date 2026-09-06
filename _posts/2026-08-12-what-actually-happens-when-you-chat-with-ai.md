@@ -1,5 +1,6 @@
 ---
 layout: post
+canonical_url: https://unwastemytime.com/blog/what-actually-happens-when-you-chat-with-ai
 title: What actually happens when you chat with AI
 date: 2026-08-12 09:00 -0500
 image: /assets/images/2026-08-12-what-actually-happens-when-you-chat-with-ai/cover.jpg

@@ -1,5 +1,6 @@
 ---
 layout: post
+canonical_url: https://unwastemytime.com/blog/open-closed-local-hosted-choosing-ai-stack
 title: Open, closed, local, and hosted
 subtitle: How to choose an AI stack
 date: 2026-08-21 09:00 -0500

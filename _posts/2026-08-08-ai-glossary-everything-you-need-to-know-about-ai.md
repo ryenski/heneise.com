@@ -1,5 +1,6 @@
 ---
 layout: post
+canonical_url: https://unwastemytime.com/blog/ai-glossary-everything-you-need-to-know-about-ai
 title: Everything you need to know about AI
 subtitle: To sound like you know what you're talking about
 date: 2026-08-08 11:06 -0500

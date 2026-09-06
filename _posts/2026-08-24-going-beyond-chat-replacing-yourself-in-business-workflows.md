@@ -1,5 +1,6 @@
 ---
 layout: post
+canonical_url: https://unwastemytime.com/blog/going-beyond-chat-replacing-yourself-in-business-workflows
 title: Going beyond the chat
 subtitle: Practical AI agents for business workflows
 date: 2026-08-24 09:00 -0500

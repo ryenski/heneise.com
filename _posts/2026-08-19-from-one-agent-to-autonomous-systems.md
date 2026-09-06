@@ -1,5 +1,6 @@
 ---
 layout: post
+canonical_url: https://unwastemytime.com/blog/from-one-agent-to-autonomous-systems
 title: From one agent to autonomous systems
 date: 2026-08-19 09:00 -0500
 image: /assets/images/2026-08-19-from-one-agent-to-autonomous-systems/cover.jpg
