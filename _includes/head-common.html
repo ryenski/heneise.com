@@ -6,14 +6,30 @@
   the preload is discarded and the file is requested a second time.
 {%- endcomment -%}
 {% include theme-init.html %}
+<link
+  rel="icon"
+  href="{{ "/assets/images/favicon/favicon.svg" | relative_url }}"
+  type="image/svg+xml"
+>
+<link
+  rel="alternate icon"
+  href="{{ "/assets/images/favicon/favicon.ico" | relative_url }}"
+>
+<link
+  rel="apple-touch-icon"
+  href="{{ "/assets/images/favicon/apple-touch-icon.png" | relative_url }}"
+>
+<link rel="manifest" href="{{ "/assets/images/favicon/site.webmanifest" | relative_url }}">
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-TH7KZZRGJ0"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  window.dataLayer = window.dataLayer || []
+  function gtag() {
+    dataLayer.push(arguments)
+  }
+  gtag('js', new Date())
 
-  gtag('config', 'G-TH7KZZRGJ0');
+  gtag('config', 'G-TH7KZZRGJ0')
 </script>
 <link
   rel="preload"
