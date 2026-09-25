@@ -4,11 +4,10 @@ title: I built a Taildrop plugin for Omarchy
 subtitle: Send files to any machine on your tailnet with one keystroke
 date: 2026-09-24 09:00 -0500
 excerpt: LocalSend is built in to Omarchy, but it's a little janky over Tailscale. So I built a share sheet for Taildrop instead.
+image: /assets/images/2026-09-24-i-built-a-taildrop-plugin-for-omarchy/cover.png
 ---
 
 I built a [Taildrop](https://tailscale.com/docs/features/taildrop) plugin for [Omarchy](https://omarchy.org). Press `SUPER + SHIFT + T`, pick a device, and whatever you had highlighted, copied, or selected lands on it.
-
-![The Taildrop share sheet in Omarchy](https://raw.githubusercontent.com/ryenski/omarchy-taildrop/master/preview.png)
 
 ## Why
 
