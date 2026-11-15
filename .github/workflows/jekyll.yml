@@ -45,7 +45,9 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          # ruby-version: '3.2' # Minimum version required by sass-embedded
+          # Track latest 3.4.x: newer runner images only ship the latest patch,
+          # so pinning .ruby-version's exact patch breaks when ubuntu-latest moves.
+          ruby-version: '3.4'
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
       - name: Setup Pages
